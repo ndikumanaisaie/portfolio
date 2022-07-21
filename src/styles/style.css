@@ -4,17 +4,30 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f9f9f9;
+}
+
 .social-icon {
   transition: 0.3s ease;
   color: #3d90e3;
   border-radius: 50px;
-  padding: 6px;
+  padding: 4px;
 }
 
 .social-icon:hover {
-  background-color: #164e87;
-  transform: scale(1.2);
+  background-color: #dcdddd;
+  transform: scale(1.1);
   cursor: pointer;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #3d90e3;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {

@@ -2,9 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import { Stack, Button, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
-import { MdDehaze } from 'react-icons/md';
 import Burger from './burger-menu/Burger.jsx';
 import StyledMenu from './burger-menu/StyledMenu.js';
 
@@ -53,7 +52,6 @@ const Navbar = () => {
 				className="menu-control-container"
 			>
 				<Burger open={open} setOpen={setOpen} />
-				{/* <MdDehaze /> */}
 			</div>
 			{
 				activeMenu ? (
@@ -64,22 +62,19 @@ const Navbar = () => {
 						>
 							<Link
 								to="/"
-								className='menu-item'
 								style={{ textDecoration: 'none', color: '#164e87', borderBottom: '3px solid #3d90e3' }}
 							>
           			Projects
 							</Link>
 							<a
-								href='#exercises'
+								href='#technologies'
 								className='menu-item'
-								style={{ textDecoration: 'none', color: '#3d90e3' }}
 							>
           			Technologies
 							</a>
 							<a
 								href='#about'
 								className='menu-item'
-								style={{ textDecoration: 'none', color: '#3d90e3' }}
 							>
           			About
 							</a>
@@ -94,21 +89,27 @@ const Navbar = () => {
 						>
 							<a
 								className="social-icon"
-								href='#exercises'
+								href='https://github.com/ndikumanaisaie'
+								target="_blank"
+								rel="noreferrer"
 							>
 								<AiFillGithub size="2rem" />
 							</a>
 							<a
 								className="social-icon"
-								href='#exercises'
+								href='https://www.linkedin.com/in/ndikumana-isaie-21166273'
+								target="_blank"
+								rel="noreferrer"
 							>
 								<AiFillLinkedin size="2rem" />
 							</a>
 							<a
 								className="social-icon"
-								href='#about'
+								href='https://twitter.com/Ndikuma38670724'
+								target="_blank"
+								rel="noreferrer"
 							>
-								<AiFillInstagram size="2rem"/>
+								<AiFillTwitterCircle size="2rem"/>
 							</a>
 						</Stack>
 					</Box>
@@ -116,27 +117,27 @@ const Navbar = () => {
 					<StyledMenu open={open}>
 						<Box>
 							<Box
-								className="portfolio-container"
+								className="mobile-portfolio-container"
 								marginTop="0.8rem"
 							>
 								<Link
 									to="/"
 									className='menu-item'
-									style={{ textDecoration: 'none', color: '#164e87', borderBottom: '3px solid #3d90e3' }}
+									style={{ textDecoration: 'none', color: '#ffffff' }}
 								>
           			Projects
 								</Link>
 								<a
 									href='#exercises'
 									className='menu-item'
-									style={{ textDecoration: 'none', color: '#3d90e3' }}
+									style={{ textDecoration: 'none', color: '#ffffff' }}
 								>
           			Technologies
 								</a>
 								<a
 									href='#about'
 									className='menu-item'
-									style={{ textDecoration: 'none', color: '#3d90e3' }}
+									style={{ textDecoration: 'none', color: '#ffffff' }}
 								>
           			About
 								</a>
@@ -151,21 +152,27 @@ const Navbar = () => {
 							>
 								<a
 									className="social-icon"
-									href='#exercises'
+									href='https://github.com/ndikumanaisaie'
+									target="_blank"
+									rel="noreferrer"
 								>
 									<AiFillGithub size="2rem" />
 								</a>
 								<a
 									className="social-icon"
-									href='#exercises'
+									href='https://www.linkedin.com/in/ndikumana-isaie-21166273'
+									target="_blank"
+									rel="noreferrer"
 								>
 									<AiFillLinkedin size="2rem" />
 								</a>
 								<a
 									className="social-icon"
-									href='#about'
+									href='https://twitter.com/Ndikuma38670724'
+									target="_blank"
+									rel="noreferrer"
 								>
-									<AiFillInstagram size="2rem"/>
+									<AiFillTwitterCircle size="2rem"/>
 								</a>
 							</Stack>
 						</Box>
