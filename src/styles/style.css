@@ -3,3 +3,43 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.social-icon {
+  transition: 0.3s ease;
+  color: #3d90e3;
+  border-radius: 50px;
+  padding: 6px;
+}
+
+.social-icon:hover {
+  background-color: #164e87;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-control-container {
+    display: none !important;
+  }
+
+  .menu {
+    display: flex;
+    position: relative;
+    right: inherit;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: space-between;
+  }
+
+  .menu-item-container {
+    display: flex;
+    gap: 380px;
+  }
+
+  .portfolio-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 24px;
+  }
+}

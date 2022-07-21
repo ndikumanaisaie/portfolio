@@ -13,7 +13,7 @@ const App = () => (
 		width="400px"
 		sx={ { width: { xl: '1488px' } }}
 		m="auto"
-		border="2px solid brown"
+		position='relative'
 	>
 		<Navbar />
 		<Routes>
