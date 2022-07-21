@@ -10,6 +10,7 @@ const StyledMenu = styled.nav`
   padding: 2rem;
   position: absolute;
   transition: transform 0.2s ease-in-out;
+  z-index: 1;
   top: 0;
   left: 0;
   @media (max-width: 768px) {

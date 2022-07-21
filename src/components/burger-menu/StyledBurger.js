@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 const StyledBurger = styled.button`
   position: absolute;
-  top: 5%;
+  top: 1%;
   right: 2rem;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@ const StyledBurger = styled.button`
   div {
     width: 2rem;
     height: 0.25rem;
-    background: ${({ open }) => (open ? '#164e87' : '#3d90e3')};
+    background: ${({ open }) => (open ? '#3d90e3' : '#164e87')};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
