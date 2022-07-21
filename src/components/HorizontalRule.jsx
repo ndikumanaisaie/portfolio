@@ -13,7 +13,7 @@ const HorizontalRule = () => (
 			},
 		}}
 		p="10px"
-		borderBottom= "1px solid #dcdddd"
+		borderBottom= "1px solid #dcddde"
 	>
 	</Box>
 );
