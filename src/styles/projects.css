@@ -1,8 +1,10 @@
+/* stylelint-disable color-hex-case */
 .project-card {
   width: 100%;
   border: 1px solid rgb(214, 214, 214);
   border-radius: 10px;
   padding-bottom: 14px;
+  text-align: center;
 }
 
 @media screen and (max-width: 400px) {
@@ -50,7 +52,35 @@ hr {
   gap: 24px;
 }
 
-@media screen and (min-width: 768px) {
+.more-action {
+  border: none;
+  width: 140px;
+  border-radius: 12px;
+  color: #164e87;
+  display: flex;
+  text-decoration: none;
+  background: linear-gradient(270deg, #d8d8d8 100%, #515c67 0%);
+  opacity: 1;
+  transition: 0.4s all ease-in;
+  padding: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.more-action:hover {
+  transform: scale(1.05, 1.05);
+}
+
+@media screen and (max-width: 1024px) {
+  .project-card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   .intro {
     width: 60%;
   }
@@ -58,7 +88,6 @@ hr {
   .project-card {
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(80, 78, 78, 0.5);
-    text-align: center;
     width: 400px;
     transition: 0.2s all ease-in-out;
     border: 1px solid rgb(224, 224, 224);

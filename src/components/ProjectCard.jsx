@@ -23,18 +23,19 @@ const ProjectCard = ({ project, timeLineData }) => (
 		<Stack
 			direction="column"
 			gap={2}
+			p={1}
 		>
 			<p style={{ textAlign: 'justify' }}>
 				{
 					project.description.length > 100
-						? `${project.description.substring(0, 100)} ...`
+						? `${project.description.substring(0, 150)} ...`
 						: project.description
 				}
 			</p>
 			<Link
-				className='more'
+				className='more-action'
 				to={`/project/${project.id}`}
-				style={{ color: 'grey', textDecoration: 'none', textAlign: 'left' }}>
+			>
 					View More
 			</Link>
 		</Stack>

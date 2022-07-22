@@ -63,7 +63,7 @@ const Navbar = () => {
 						>
 							<Link
 								to="/"
-								style={{ textDecoration: 'none', color: '#3d90e3', borderBottom: '3px solid #164e87' }}
+								style={{ textDecoration: 'none', color: '#3d90e3' }}
 							>
           			Projects
 							</Link>
