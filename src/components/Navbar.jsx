@@ -6,6 +6,7 @@ import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/a
 import { DiCssdeck } from 'react-icons/di';
 import Burger from './burger-menu/Burger.jsx';
 import StyledMenu from './burger-menu/StyledMenu.js';
+import '../styles/navbar.css';
 
 const Navbar = () => {
 	const [activeMenu, setActiveMenu] = useState(true);
@@ -62,7 +63,7 @@ const Navbar = () => {
 						>
 							<Link
 								to="/"
-								style={{ textDecoration: 'none', color: '#164e87', borderBottom: '3px solid #3d90e3' }}
+								style={{ textDecoration: 'none', color: '#3d90e3', borderBottom: '3px solid #164e87' }}
 							>
           			Projects
 							</Link>

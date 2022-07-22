@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Space Grotesk, sans-serif;
 }
 
 body {
@@ -21,47 +22,7 @@ body {
   cursor: pointer;
 }
 
-.menu-item {
-  text-decoration: none;
-  color: #3d90e3;
-}
-
-.menu-item:hover {
-  text-decoration: underline;
-}
-
 .intro {
   width: 100%;
   text-align: justify;
-}
-
-@media screen and (min-width: 768px) {
-  .menu-control-container {
-    display: none !important;
-  }
-
-  .menu {
-    display: flex;
-    position: relative;
-    right: inherit;
-    flex-direction: row;
-    gap: 32px;
-    justify-content: space-between;
-  }
-
-  .menu-item-container {
-    display: flex;
-    gap: 50vh;
-  }
-
-  .portfolio-container {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    font-size: 24px;
-  }
-
-  .intro {
-    width: 60%;
-  }
 }
