@@ -53,7 +53,7 @@ const ProjectCard = ({ project, timeLineData }) => (
 		>
 			{
 				project.tags.map((tag) => (
-					<Box pb={3} pt={2} color="#3da0e3" key={project.id}>
+					<Box pb={3} pt={2} color="#aaa0e3" key={project.id}>
 						<Typography>{tag}</Typography>
 					</Box>
 				))
