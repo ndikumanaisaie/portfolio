@@ -66,12 +66,7 @@ const ProjectDetails = () => {
 
 				<Stack
 					direction="row"
-					justifyContent="center"
-					sx={{
-						gap: {
-							lg: '50%', md: '45%', sm: '40%', xs: '30%',
-						},
-					}}
+					justifyContent="space-between"
 				>
 					<Box>
 						<a className="code" href={data.source}>source</a>

@@ -16,7 +16,7 @@ const App = () => (
 		sx={ { width: { xl: '1488px' } }}
 		position='relative'
 		m="auto"
-		style={{ backgroundImage: `url(${bg})` }}
+		// style={{ backgroundImage: `url(${bg})` }}
 	>
 		<Navbar />
 		<Routes>

@@ -61,12 +61,12 @@ const Navbar = () => {
 							className="portfolio-container"
 							marginTop="0.8rem"
 						>
-							<Link
-								to="/"
+							<a
 								className='menu-item'
+								href='#projects'
 							>
           			Projects
-							</Link>
+							</a>
 							<a
 								href='#technologies'
 								className='menu-item'
