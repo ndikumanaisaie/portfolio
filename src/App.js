@@ -12,7 +12,7 @@ import bg from './images/dark-background.jpg';
 
 const App = () => (
 	<Box
-		width="400px"
+		// width="400px"
 		sx={ { width: { xl: '1488px' } }}
 		position='relative'
 		m="auto"

@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
-  background: #011101;
+  background-color: rgb(27, 37, 54);;
   transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(-100%)')};
   height: 100vh;
   text-align: left;
