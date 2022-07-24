@@ -8,9 +8,8 @@ import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/a
 
 const HeroBanner = () => (
 	<Box
-		sx={{ mt: { lg: '112px', xs: '70px' }, ml: { sm: '50px' } }}
-		position ="relative"
-		p="20px"
+		sx={{ mt: { lg: '112px', xs: '70px' } }}
+		color="#ddd"
 	>
 		<Typography
 			fontWeight={700}

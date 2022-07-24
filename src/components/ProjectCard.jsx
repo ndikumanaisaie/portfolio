@@ -25,7 +25,7 @@ const ProjectCard = ({ project, timeLineData }) => (
 			gap={2}
 			p={1}
 		>
-			<p style={{ textAlign: 'justify' }}>
+			<p style={{ textAlign: 'justify', color: '#ddd' }}>
 				{
 					project.description.length > 100
 						? `${project.description.substring(0, 150)} ...`
@@ -36,7 +36,7 @@ const ProjectCard = ({ project, timeLineData }) => (
 				className='more-action'
 				to={`/project/${project.id}`}
 			>
-					View More
+					See Project
 			</Link>
 		</Stack>
 
@@ -53,7 +53,7 @@ const ProjectCard = ({ project, timeLineData }) => (
 		>
 			{
 				project.tags.map((tag) => (
-					<Box pb={3} pt={2} color="#aaa0e3" key={project.id}>
+					<Box pb={3} pt={2} color="#aaa0e3" key={project.title}>
 						<Typography>{tag}</Typography>
 					</Box>
 				))
@@ -65,7 +65,7 @@ const ProjectCard = ({ project, timeLineData }) => (
 			justifyContent="center"
 			sx={{
 				gap: {
-					lg: '60%', md: '55%', sm: '40%', xs: '30%',
+					lg: '50%', md: '45%', sm: '40%', xs: '30%',
 				},
 			}}
 		>
@@ -74,7 +74,7 @@ const ProjectCard = ({ project, timeLineData }) => (
 			</Box>
 
 			<Box>
-				<a className="code" href={project.visit}>Live</a>
+				<a className="code" href={project.visit}>Demo</a>
 			</Box>
 		</Stack>
 	</Box>

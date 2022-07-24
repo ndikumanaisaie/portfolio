@@ -10,25 +10,22 @@ import Achievements from '../components/Achievements.jsx';
 import HorizontalRule from '../components/HorizontalRule.jsx';
 import Timeline from '../components/Timeline.jsx';
 import About from '../components/About.jsx';
+import BgAnimation from '../constants/animation.js';
 
-const Home = () => {
-	const [bodyPart, setBodyPart] = useState('all');
-	const [exercises, setExercises] = useState([]);
-
-	return (
-		<Box>
-			<HeroBanner />
-			<HorizontalRule />
-			<Projects />
-			<HorizontalRule />
-			<Technologies />
-			<HorizontalRule />
-			<About />
-			<Timeline />
-			<HorizontalRule />
-			<Achievements />
-		</Box>
-	);
-};
+const Home = () => (
+	<Box m="3%">
+		<HeroBanner />
+		<BgAnimation />
+		<HorizontalRule />
+		<Projects />
+		<HorizontalRule />
+		<Technologies />
+		<HorizontalRule />
+		<About />
+		<Timeline />
+		<HorizontalRule />
+		<Achievements />
+	</Box>
+);
 
 export default Home;

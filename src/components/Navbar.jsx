@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Stack, Button, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { VscCode } from 'react-icons/vsc';
 import Burger from './burger-menu/Burger.jsx';
 import StyledMenu from './burger-menu/StyledMenu.js';
 import '../styles/navbar.css';
@@ -46,7 +46,7 @@ const Navbar = () => {
 						textDecoration: 'none',
 					}}
 				>
-					<DiCssdeck size="3rem" /> <span>Portfolio</span>
+					<VscCode size="3rem" /> <span>Portfolio</span>
 				</Box>
 			</Link>
 			<div
@@ -63,7 +63,7 @@ const Navbar = () => {
 						>
 							<Link
 								to="/"
-								style={{ textDecoration: 'none', color: '#3d90e3' }}
+								className='menu-item'
 							>
           			Projects
 							</Link>

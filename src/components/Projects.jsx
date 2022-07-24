@@ -24,20 +24,12 @@ const Projects = () => {
 
 		<Box
 			id="projects"
-			sx={{
-				ml: {
-					lg: '65px', md: '60px', sm: '60px', xs: '30px',
-				},
-				mr: {
-					lg: '65px', md: '60px', sm: '20px', xs: '30px',
-				},
-			}}
 			mt="50px"
-			border="2px solid blue"
 		>
 			<Typography
 				variant="h3"
 				mb="46px"
+				color="#ddd"
 			>
         Projects
 			</Typography>
@@ -48,7 +40,7 @@ const Projects = () => {
 				{
 					currentProjects.map((project) => (
 						<ProjectCard
-							key={project.id}
+							key={project.title}
 							project={project}
 							timeLineData={timeLineData}
 						/>
@@ -62,13 +54,15 @@ const Projects = () => {
 				{
 					projects.length > 4 && (
 						<Pagination
-							color="primary"
 							shape="rounded"
 							defaultPage={1}
 							count={Math.ceil(projects.length / projectPerPage)}
 							page = {currentPage}
 							onChange= {paginate}
 							size="large"
+							sx={{
+								color: '#ddd', backgroundColor: '#3d90e3', borderRadius: '10px',
+							}}
 						/>
 					)
 				}

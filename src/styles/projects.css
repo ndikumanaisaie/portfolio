@@ -3,8 +3,10 @@
   width: 100%;
   border: 1px solid rgb(214, 214, 214);
   border-radius: 10px;
-  padding-bottom: 14px;
+  padding: 14px;
   text-align: center;
+  color: white;
+  background-color: rgb(27, 37, 54);
 }
 
 @media screen and (max-width: 400px) {
@@ -87,14 +89,14 @@ hr {
 
   .project-card {
     border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(80, 78, 78, 0.5);
+    box-shadow: 3px 3px 10px rgba(208, 208, 208, 0.5);
     width: 400px;
-    transition: 0.2s all ease-in-out;
     border: 1px solid rgb(224, 224, 224);
+    transition: 0.3s;
   }
 
   .project-card:hover {
-    transform: scale(1.05, 1.05);
+    background-color: transparent;
   }
 
   .projects-container {

@@ -5,6 +5,11 @@
   font-family: Space Grotesk, sans-serif;
 }
 
+html {
+  font-size: 92.5%;
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f9f9f9;
 }
@@ -25,4 +30,11 @@ body {
 .intro {
   width: 100%;
   text-align: justify;
+}
+
+.BgAnimation__svg {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 50%;
 }
