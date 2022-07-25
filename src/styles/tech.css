@@ -1,0 +1,15 @@
+.tech {
+  display: flex;
+  flex-direction: column;
+  margin: 32px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .tech {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 3rem 0;
+  }
+}
