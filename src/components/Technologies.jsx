@@ -383,7 +383,7 @@ const Technologies = () => (
 									<DiGit size={30} color="#ddd" />
 								</ListItemIcon>
 								<ListItemText
-									primary="Git"
+									primary="MobileResponsiveDev"
 									secondary={
 										<React.Fragment>
 											<Typography
@@ -400,10 +400,10 @@ const Technologies = () => (
 							</ListItem>
 							<ListItem>
 								<ListItemIcon>
-									<DiGithubBadge size={30} color="#ddd" />
+									<DiGit size={30} color="#ddd" />
 								</ListItemIcon>
 								<ListItemText
-									primary="GitHub"
+									primary="Team Work"
 									secondary={
 										<React.Fragment>
 											<Typography
@@ -420,10 +420,10 @@ const Technologies = () => (
 							</ListItem>
 							<ListItem>
 								<ListItemIcon>
-									<DiTerminal size={30} color="#ddd" />
+									<DiGit size={30} color="#ddd" />
 								</ListItemIcon>
 								<ListItemText
-									primary="Terminal"
+									primary="Remote pair programming"
 									secondary={
 										<React.Fragment>
 											<Typography
