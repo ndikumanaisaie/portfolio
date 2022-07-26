@@ -94,9 +94,17 @@ export const projects = [
 ];
 
 export const timeLineData = [
-	{ year: 2017, text: 'Started my journey' },
-	{ year: 2018, text: 'Worked as a freelance developer' },
-	{ year: 2019, text: 'Founded JavaScript Mastery' },
-	{ year: 2020, text: 'Shared my projects with the world' },
-	{ year: 2021, text: 'Started my own platform' },
+	{ year: 2012, text: 'Introduction to programming' },
+	{ year: '2012-2016', text: 'College + Programming for fun' },
+	{ year: 2017, text: 'start building static websites with html and css' },
+	{ year: '2018-2020', text: 'Building mobile apps using java and Android Studio code' },
+	{ year: 2021, text: 'Started building dynamic website using javascript' },
+	{ year: 2022, text: 'Started learning at Microverse a remote collaboration based programming school' },
+];
+
+export const accomplishment = [
+	{ number: 27, text: 'Repositories' },
+	{ number: 528, text: 'Contributions' },
+	{ number: 45, text: 'Github Followers' },
+	{ number: 124, text: 'Github Stars' },
 ];
