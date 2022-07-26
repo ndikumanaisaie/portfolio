@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import {
-	Typography, Box, Stack, Container,
+	Typography, Box, Stack,
 } from '@mui/material';
 import {
 	DiCss3Full, DiReact, DiDatabase, DiJavascript, DiJsBadge, DiNodejs,
@@ -12,7 +12,6 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import Grid from '@mui/material/Grid';
 
 import '../styles/tech.css';
 
@@ -39,12 +38,19 @@ const Technologies = () => (
 			MERN Stack to become a Full-Stack web developer.
 		</Typography>
 
-		<Grid container mt={4} spacing={2}>
-			<Grid
-				item xs={12}
-				md={4}
+		<Stack
+			sx={{
+				flexDirection: { lg: 'row' }, justifyContent: 'space-between', gap: { md: '15px', xs: '22px' },
+			}}
+		>
+			<Stack
+				direction="column"
+				border="2px solid brown"
+				backgroundColor="#051010"
+				borderRadius="10px"
+				sx={{ width: { lg: '30%' } }}
 			>
-				<Typography sx={{ mt: 4, mb: 2 }} color="#3d90e3" textAlign="center" variant="h4" component="div">
+				<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#3d90e3" variant="h4" component="div">
             Front-End
 				</Typography>
 				<List>
@@ -195,9 +201,15 @@ const Technologies = () => (
 						</div>
 					</Stack>
 				</List>
-			</Grid>
-			<Grid item xs={12} md>
-				<Typography sx={{ mt: 4, mb: 2 }} color="#3d90e3" textAlign="center" variant="h4" component="div">
+			</Stack>
+			<Stack
+				direction="column"
+				border="2px solid brown"
+				backgroundColor="#051010"
+				borderRadius="10px"
+				sx={{ width: { lg: '30%' } }}
+			>
+				<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#3d90e3" textAlign="center" variant="h4" component="div">
             Back-End
 				</Typography>
 				<List>
@@ -308,9 +320,15 @@ const Technologies = () => (
 						</div>
 					</Stack>
 				</List>
-			</Grid>
-			<Grid item xs={12} md>
-				<Typography sx={{ mt: 4, mb: 2 }} color="#3d90e3" textAlign="center" variant="h4" component="div">
+			</Stack>
+			<Stack
+				direction="column"
+				border="2px solid brown"
+				backgroundColor="#051010"
+				borderRadius="10px"
+				sx={{ width: { lg: '30%' } }}
+			>
+				<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#3d90e3" textAlign="center" variant="h4" component="div">
            Other Skills
 				</Typography>
 				<List>
@@ -383,7 +401,7 @@ const Technologies = () => (
 									<DiGit size={30} color="#ddd" />
 								</ListItemIcon>
 								<ListItemText
-									primary="MobileResponsiveDev"
+									primary="MobileResponsive"
 									secondary={
 										<React.Fragment>
 											<Typography
@@ -441,8 +459,8 @@ const Technologies = () => (
 						</div>
 					</Stack>
 				</List>
-			</Grid>
-		</Grid>
+			</Stack>
+		</Stack>
 	</Box>
 );
 
