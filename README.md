@@ -5,7 +5,7 @@
 > This is my portofolio. A complete mobolie first website that features all my projects, skills and ambitions. It is completely written in modern react using functional component along with Material UI and Styled component.
 
 ## Below is the screenshot of my work
-![Feetness App](https://github.com/ndikumanaisaie/feetness_app/blob/setup_ui/src/assets/images/shot.png)
+![Ndikumana Isaie](https://github.com/ndikumanaisaie/portfolio/blob/portfolio/src/images/ndikumana.png)
 
 ## Built with
 - Javascript
@@ -21,7 +21,7 @@
 
 - GitHub: [ndikumanaisaie](https://github.com/ndikumanaisaie)
 - Twitter: [Ndikuma38670724](https://twitter.com/Ndikuma38670724)
-- LinkedIn: [ndikumana-isaie-21166273](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
+- LinkedIn: [ndikumana.isaie](https://www.linkedin.com/in/ndikumana.isaie)
 
 ## Link to URL on browser
 - [Fitness App](https://ndikumanaisaie.github.io/portfolio/dist)
