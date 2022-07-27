@@ -24,7 +24,7 @@
 - LinkedIn: [ndikumana.isaie](https://www.linkedin.com/in/ndikumana.isaie)
 
 ## Link to URL on browser
-- [Ndikumana Isaie](https://ndikumanaisaie.github.io/portfolio/dist)
+- [Ndikumana Isaie](https://ndikumanaisaie.github.io/portfolio/dist/)
 
 ## Link to URL on gitHub
 - [Ndikumana Isaie](https://github.com/ndikumanaisaie/portfolio.git)
