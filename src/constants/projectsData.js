@@ -95,11 +95,11 @@ export const projects = [
 	},
 	{
 		title: 'Ndikumana Isaie Portfolio',
-		description: "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-		image: '/images/2.png',
-		tags: ['React', 'JavaScript'],
-		source: 'https://google.com',
-		visit: 'https://google.com',
+		description: 'This is my portofolio. A complete mobolie first website that features all my projects, skills and ambitions. It is completely written in modern react using functional component along with Material UI and Styled component.',
+		image: ndikumana,
+		tags: ['React', 'JavaScript', 'Material UI', 'Styled Component'],
+		source: 'https://github.com/ndikumanaisaie/portfolio.git',
+		visit: ' https://ndikumanaisaie.github.io/portfolio/dist',
 		id: 9,
 	},
 ];
