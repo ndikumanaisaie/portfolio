@@ -19,9 +19,9 @@ const ProjectDetails = () => {
 			}}
 		>
 			<img
+				className="details-img"
 				src={data.image}
 				alt={data.title}
-				style={{ borderRadius: '10px', objectFit: 'cover' }}
 			/>
 			<Stack direction="column">
 				<Typography

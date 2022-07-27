@@ -64,6 +64,7 @@
   "name": "portfolio",
   "description": "\"portfolio\" My portfolio website is designed in React, material UI, It includes my top 10 projects and my github Stats.",
   "version": "1.0.0",
+  "predeploy": "npm run build",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ndikumanaisaie/portfolio.git"

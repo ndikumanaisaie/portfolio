@@ -45,7 +45,7 @@ export const projects = [
 		image: feetness,
 		tags: ['React', 'ChatEngine', 'Firebase'],
 		source: 'https://github.com/ndikumanaisaie/feetness_app.git',
-		visit: 'https://ndikumanaisaie.github.io/feetness_app/dist',
+		visit: 'https://feetness.netlify.app/',
 		id: 3,
 	},
 	{
@@ -99,7 +99,7 @@ export const projects = [
 		image: ndikumana,
 		tags: ['React', 'JavaScript', 'Material UI', 'Styled Component'],
 		source: 'https://github.com/ndikumanaisaie/portfolio.git',
-		visit: ' https://ndikumanaisaie.github.io/portfolio/dist',
+		visit: 'https://ndikumanaisaie.netlify.app/',
 		id: 9,
 	},
 ];
