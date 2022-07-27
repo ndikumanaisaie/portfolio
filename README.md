@@ -24,18 +24,18 @@
 - LinkedIn: [ndikumana-isaie-21166273](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
 
 ## Link to URL on browser
-- [Fitness App](https://ndikumanaisaie.github.io/feetness_app/dist)
+- [Fitness App](https://ndikumanaisaie.github.io/portfolio/dist)
 
 ## Link to URL on gitHub
-- [Filmpire](https://github.com/ndikumanaisaie/feetness_app.git)
+- [Filmpire](https://github.com/ndikumanaisaie/portfolio.git)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ## Setup
-clone: run `git clone https://github.com/ndikumanaisaie/feetness_app.git`
-Move to cloned folder: run git cd feetness_app.
+clone: run `git clone https://github.com/ndikumanaisaie/portfolio.git`
+Move to cloned folder: run git cd portfolio.
 
 ## Install
 
