@@ -8,8 +8,6 @@ import Home from './pages/Home.jsx';
 import Footer from './components/Footer.jsx';
 import ProjectDetails from './pages/ProjectDetails.jsx';
 
-import bg from './images/dark-background.jpg';
-
 const App = () => (
 	<Box
 		sx={ { width: { xl: '1488px' } }}

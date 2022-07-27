@@ -2,19 +2,17 @@
 
 ## Filmpire
 
-> This website is designed entirely in react using material UI. It is a feetness application that lets users search for different exercises based on body parts. It also show similar exercises and display their youtude videos.
+> This is my portofolio. A complete mobolie first website that features all my projects, skills and ambitions. It is completely written in modern react using functional component along with Material UI and Styled component.
 
 ## Below is the screenshot of my work
 ![Feetness App](https://github.com/ndikumanaisaie/feetness_app/blob/setup_ui/src/assets/images/shot.png)
 
 ## Built with
-- HTML
-- CSS
 - Javascript
 - React
 - Material UI
-- RapidApi API
-- gitflow
+- Styled Component
+- webpack
 
 
 ## Author
