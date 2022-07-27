@@ -1,11 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Filmpire
+## Ndikumana Isaie Portfolio
 
 > This is my portofolio. A complete mobolie first website that features all my projects, skills and ambitions. It is completely written in modern react using functional component along with Material UI and Styled component.
 
 ## Below is the screenshot of my work
-![Feetness App](https://github.com/ndikumanaisaie/feetness_app/blob/setup_ui/src/assets/images/shot.png)
+![Ndikumana Isaie](https://github.com/ndikumanaisaie/portfolio/blob/portfolio/src/images/ndikumana.png)
 
 ## Built with
 - Javascript
@@ -21,21 +21,21 @@
 
 - GitHub: [ndikumanaisaie](https://github.com/ndikumanaisaie)
 - Twitter: [Ndikuma38670724](https://twitter.com/Ndikuma38670724)
-- LinkedIn: [ndikumana-isaie-21166273](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
+- LinkedIn: [ndikumana.isaie](https://www.linkedin.com/in/ndikumana.isaie)
 
 ## Link to URL on browser
-- [Fitness App](https://ndikumanaisaie.github.io/feetness_app/dist)
+- [Ndikumana Isaie](https://ndikumanaisaie.github.io/portfolio/dist)
 
 ## Link to URL on gitHub
-- [Filmpire](https://github.com/ndikumanaisaie/feetness_app.git)
+- [Ndikumana Isaie](https://github.com/ndikumanaisaie/portfolio.git)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ## Setup
-clone: run `git clone https://github.com/ndikumanaisaie/feetness_app.git`
-Move to cloned folder: run git cd feetness_app.
+clone: run `git clone https://github.com/ndikumanaisaie/portfolio.git`
+Move to cloned folder: run git cd portfolio.
 
 ## Install
 
