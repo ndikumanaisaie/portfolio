@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Filmpire
+## Ndikumana Isaie Portfolio
 
 > This is my portofolio. A complete mobolie first website that features all my projects, skills and ambitions. It is completely written in modern react using functional component along with Material UI and Styled component.
 
@@ -24,10 +24,10 @@
 - LinkedIn: [ndikumana.isaie](https://www.linkedin.com/in/ndikumana.isaie)
 
 ## Link to URL on browser
-- [Fitness App](https://ndikumanaisaie.github.io/portfolio/dist)
+- [Ndikumana Isaie](https://ndikumanaisaie.github.io/portfolio/dist)
 
 ## Link to URL on gitHub
-- [Filmpire](https://github.com/ndikumanaisaie/portfolio.git)
+- [Ndikumana Isaie](https://github.com/ndikumanaisaie/portfolio.git)
 
 ## Getting Started
 
