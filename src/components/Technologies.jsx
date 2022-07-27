@@ -45,7 +45,6 @@ const Technologies = () => (
 		>
 			<Stack
 				direction="column"
-				border="2px solid brown"
 				backgroundColor="#051010"
 				borderRadius="10px"
 				sx={{ width: { lg: '30%' } }}
@@ -204,7 +203,6 @@ const Technologies = () => (
 			</Stack>
 			<Stack
 				direction="column"
-				border="2px solid brown"
 				backgroundColor="#051010"
 				borderRadius="10px"
 				sx={{ width: { lg: '30%' } }}
@@ -323,7 +321,6 @@ const Technologies = () => (
 			</Stack>
 			<Stack
 				direction="column"
-				border="2px solid brown"
 				backgroundColor="#051010"
 				borderRadius="10px"
 				sx={{ width: { lg: '30%' } }}

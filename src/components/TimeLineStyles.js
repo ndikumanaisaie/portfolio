@@ -12,7 +12,7 @@ export const CarouselContainer = styled.ul`
   list-style:none;
   display: flex;
   justify-content: space-between; 
-  border: 2px solid green;
+  // border: 2px solid green;
   /* overflow-x: hidden; */
 
   margin-left: 32px;
@@ -28,7 +28,7 @@ export const CarouselContainer = styled.ul`
      display: none;
    }
 
-  @media ${(props) => props.sm} {
+   @media screen and (max-width: 640px) {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
@@ -38,9 +38,9 @@ export const CarouselContainer = styled.ul`
   }
 `;
 export const CarouselMobileScrollNode = styled.div`
-  @media ${(props) => props.sm} {
+@media screen and (max-width: 640px) {
     display: flex;
-    border: 2px solid red;
+    // border: 2px solid red;
     min-width: ${({ final }) => (final ? '120%;' : 'min-content')}
   }
 `;
@@ -49,16 +49,17 @@ export const CarouselItem = styled.div`
   background: #1b2430;
   border-radius: 10px;
   width: 100%;
-  border: 2px solid green;
-
-  @media ${(props) => props.md} {
+  // border: 2px solid red;
+  
+  @media screen and (max-width: 768px){
     max-width: 124px;
   }
   
-  @media ${(props) => props.sm} {
+  @media screen and (max-width: 640px) {
     margin-left: 32px;
     min-width: 120px;
     background: #1b2430;
+    // border: 2px solid blue;
     padding: 4px;
     align-content: start;
     scroll-snap-align: start;
@@ -83,13 +84,13 @@ export const CarouselItemTitle = styled.h4`
   -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
 
-  @media ${(props) => props.md} {
+  @media screen and (max-width: 768px) {
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 4px;
   }
   
-  @media ${(props) => props.sm} {
+  @media screen and (max-width: 640px) {
     font-size: 16px;
     line-height: 24px;
   }
@@ -99,7 +100,7 @@ export const CarouselItemImg = styled.svg`
   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
   width: 100%;
 
-  @media ${(props) => props.sm} {
+  @media screen and (max-width: 640px) {
     -webkit-mask-image: none;
     margin-left: 16px;
     overflow: visible;
@@ -113,12 +114,12 @@ export const CarouselItemText = styled.p`
   color: rgba(255, 255, 255, 0.75);
   padding-right: 16px;
 
-  @media ${(props) => props.md} {
+  @media screen and (max-width: 768px) {
     font-size: 12px;
     line-height: 18px;
     padding-right: 32px;
   }
-  @media ${(props) => props.sm} {
+  @media screen and (max-width: 640px) {
     font-size: 10px;
     line-height: 16px;
     padding-right: 0;
@@ -130,7 +131,7 @@ export const CarouselButtons = styled.div`
   display: none;
   visibility: hidden;
 
-  @media ${(props) => props.sm} {
+  @media screen and (max-width: 640px) {
     display: flex;
     visibility: visible;
     margin-bottom: 48px;

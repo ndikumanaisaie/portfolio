@@ -48,7 +48,7 @@ const Timeline = () => {
 	}, []);
 
 	return (
-		<Stack id="about">
+		<Stack id="about" mt={8}>
 			<Typography
 				variant="h3"
 				mt="50px"
@@ -56,14 +56,18 @@ const Timeline = () => {
 				color="#ddd"
 			>About Me</Typography>
 			<Typography
-				mb="12px"
+				mb={8}
 				color="#ddd"
 				textAlign="justify"
 				fontSize="22px"
 				sx={{ width: { lg: '60%', xs: '100%' } }}
 			>
-      The purpose of JavaScript Mastery is to help aspiring and established
-			 developers to take their development skills to the next level and build awesome apps.
+				I am a solution-oriented Front-End Developer,
+				lifelong learner, and adventure with a background in electronics.
+				I enjoy development because of the satisfaction I get by overcoming challenges.
+				I am motivated by the opportunity that web development
+				provides to positively impact individual life,
+				family, and the world as a whole. I am open to new opportunities.
 			</Typography>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>

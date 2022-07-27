@@ -23,8 +23,8 @@ const Home = () => (
 		<HorizontalRule />
 		<About />
 		<Timeline />
-		<HorizontalRule />
 		<Achievements />
+		<HorizontalRule />
 	</Box>
 );
 

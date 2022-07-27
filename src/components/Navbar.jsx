@@ -121,15 +121,15 @@ const Navbar = () => {
 								className="mobile-portfolio-container"
 								marginTop="0.8rem"
 							>
-								<Link
-									to="/"
+								<a
 									className='menu-item'
+									href='#projects'
 									style={{ textDecoration: 'none', color: '#ffffff' }}
 								>
           			Projects
-								</Link>
+								</a>
 								<a
-									href='#exercises'
+									href='#technologies'
 									className='menu-item'
 									style={{ textDecoration: 'none', color: '#ffffff' }}
 								>
