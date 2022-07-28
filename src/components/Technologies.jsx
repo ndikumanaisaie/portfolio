@@ -34,7 +34,7 @@ const Technologies = () => (
 			sx={{ width: { lg: '60%', xs: '100%' } }}
 		>
       I've worked with a range of Front-End technologies in the web development world.
-			I have 4 years of experience working with my personal project. I am currenly learning
+			I have 4 years of experience working with my personal project. I am currently learning
 			MERN Stack to become a Full-Stack web developer.
 		</Typography>
 
