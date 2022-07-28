@@ -52,8 +52,8 @@ const ProjectCard = ({ project, timeLineData }) => (
 			flexWrap="wrap"
 		>
 			{
-				project.tags.map((tag) => (
-					<Box pb={3} pt={2} color="#aaa0e3" key={project.title}>
+				project.tags.map((tag, i) => (
+					<Box pb={3} pt={2} color="#aaa0e3" key={i}>
 						<Typography>{tag}</Typography>
 					</Box>
 				))

@@ -56,8 +56,8 @@ const ProjectDetails = () => {
 					flexWrap="wrap"
 				>
 					{
-						data.tags.map((tag) => (
-							<Box pb={3} pt={2} color="#aaa0e3" key={data.title}>
+						data.tags.map((tag, i) => (
+							<Box pb={3} pt={2} color="#aaa0e3" key={i}>
 								<Typography>{tag}</Typography>
 							</Box>
 						))

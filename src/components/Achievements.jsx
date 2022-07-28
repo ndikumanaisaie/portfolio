@@ -4,7 +4,7 @@ import { Box, Stack, Typography } from '@mui/material';
 import { accomplishment } from '../constants/projectsData.js';
 
 const Achievements = () => (
-	<Box mt={4} color="#ddd">
+	<Box mt={4} color="#ddd" pb={16}>
 		<Typography variant="h3">
 			Personal Achievements
 		</Typography>
@@ -23,6 +23,7 @@ const Achievements = () => (
 						direction="column"
 						borderRadius={2}
 						textAlign="center"
+						key={index}
 						p={2}
 						sx={{ backgroundColor: '#051010' }}
 

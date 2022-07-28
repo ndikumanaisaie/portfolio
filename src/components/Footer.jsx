@@ -5,10 +5,7 @@ import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/a
 
 const Footer = () => (
 	<Box
-		height="30vh"
-		m="3%"
-		p={4}
-		color="#ddd"
+		className="footer"
 	>
 		<Stack
 			justifyContent="space-between"

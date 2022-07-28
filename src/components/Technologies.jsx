@@ -398,7 +398,7 @@ const Technologies = () => (
 									<DiGit size={30} color="#ddd" />
 								</ListItemIcon>
 								<ListItemText
-									primary="MobileResponsive"
+									primary="Media Q"
 									secondary={
 										<React.Fragment>
 											<Typography

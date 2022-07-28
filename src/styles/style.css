@@ -12,6 +12,8 @@ html {
 
 body {
   background-color: #1b2430;
+  display: flex;
+  flex-direction: column;
 }
 
 .social-icon {
@@ -44,9 +46,18 @@ body {
   width: 100%;
 }
 
+.footer {
+  position: absolute;
+  bottom: -12rem;
+  width: 100%;
+  padding: 4%;
+  height: 35vh;
+  color: #3d90e3;
+  background-color: #ddd;
+}
+
 @media screen and (min-width: 768px) {
   .details-img {
-    object-fit: cover;
     width: 60%;
   }
 }

@@ -17,14 +17,14 @@ const Projects = () => {
 	const paginate = (e, value) => {
 		setCurrentPage(value);
 
-		window.scrollTo({ top: 1800, behavior: 'smooth' });
+		window.scrollTo({ top: 550, behavior: 'smooth' });
 	};
 
 	return (
 
 		<Box
 			id="projects"
-			mt="50px"
+			mt="30px"
 		>
 			<Typography
 				variant="h3"
@@ -38,9 +38,9 @@ const Projects = () => {
 				className="projects-container"
 			>
 				{
-					currentProjects.map((project) => (
+					currentProjects.map((project, i) => (
 						<ProjectCard
-							key={project.title}
+							key={i}
 							project={project}
 							timeLineData={timeLineData}
 						/>
