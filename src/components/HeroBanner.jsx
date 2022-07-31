@@ -17,7 +17,7 @@ const HeroBanner = () => (
 			mt="30px"
 			sx={{ fontSize: { lg: '44px', xs: '40px' } }}
 		>
-        Hi <br /> I am Ndikumana Isaie
+        Hi, <br /> I am Ndikumana Isaie
 		</Typography>
 		<Typography
 			fontSize={32}
