@@ -65,11 +65,11 @@ const ProjectCard = ({ project, timeLineData }) => (
 			justifyContent="space-between"
 		>
 			<Box>
-				<a className="code" href={project.source}>source</a>
+				<a className="code" href={project.source} target="_blank" rel="noreferrer">source</a>
 			</Box>
 
 			<Box>
-				<a className="code" href={project.visit}>Demo</a>
+				<a className="code" href={project.visit} target="_blank" rel="noreferrer">Demo</a>
 			</Box>
 		</Stack>
 	</Box>

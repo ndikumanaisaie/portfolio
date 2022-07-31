@@ -13,11 +13,19 @@ const HeroBanner = () => (
 	>
 		<Typography
 			fontWeight={700}
-			mb="23px"
+			// mb="23px"
 			mt="30px"
 			sx={{ fontSize: { lg: '44px', xs: '40px' } }}
 		>
-        Welcome To <br />My Personal Portfolio
+        Hi <br /> I am Ndikumana Isaie
+		</Typography>
+		<Typography
+			fontSize={32}
+			fontWeight={500}
+			mb={4}
+			color="#7cacdc"
+		>
+			Frontend Web developer
 		</Typography>
 
 		<Typography
@@ -26,10 +34,10 @@ const HeroBanner = () => (
 			lineHeight="35px"
 			mb={4}
 		>
-        I am a software developer! I can help you build a product , feature or
-        website. Look through some of my work and experience! If you like what
-        you see and have a project you need coded, do not hesitate to contact
-        me.
+        I can help you build a product , feature or website.
+				Look through some of my work and experience!
+				If you like what you see and have a project you need coded,
+				do not hesitate to contact me.
 		</Typography>
 
 		<Stack

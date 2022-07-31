@@ -21,7 +21,7 @@
 
 - GitHub: [ndikumanaisaie](https://github.com/ndikumanaisaie)
 - Twitter: [Ndikuma38670724](https://twitter.com/Ndikuma38670724)
-- LinkedIn: [ndikumana.isaie](https://www.linkedin.com/in/ndikumana.isaie)
+- LinkedIn: [ndikumana.isaie](https://www.linkedin.com/in/ndikumanaisaie)
 
 ## Link to URL on browser
 - [Ndikumana Isaie](https://ndikumanaisaie.github.io/portfolio/dist/)
