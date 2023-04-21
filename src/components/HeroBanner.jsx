@@ -25,7 +25,7 @@ const HeroBanner = () => (
 			mb={4}
 			color="#7cacdc"
 		>
-			Frontend Web developer
+			Full Stack developer
 		</Typography>
 
 		<Typography
@@ -57,7 +57,7 @@ const HeroBanner = () => (
 			</a>
 			<a
 				className="social-icon"
-				href='https://www.linkedin.com/in/ndikumana-isaie-21166273'
+				href='https://www.linkedin.com/in/ndikumanaisaie'
 				target="_blank"
 				rel="noreferrer"
 			>
