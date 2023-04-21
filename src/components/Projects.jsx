@@ -21,7 +21,6 @@ const Projects = () => {
 	};
 
 	return (
-
 		<Box
 			id="projects"
 			mt="30px"
