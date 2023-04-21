@@ -11,6 +11,8 @@ import HorizontalRule from '../components/HorizontalRule.jsx';
 import Timeline from '../components/Timeline.jsx';
 import About from '../components/About.jsx';
 import BgAnimation from '../constants/animation.js';
+import { ContacForm } from '../components/ContacForm.jsx';
+
 
 const Home = () => (
 	<Box m="3%">
@@ -25,6 +27,7 @@ const Home = () => (
 		<Timeline />
 		<Achievements />
 		<HorizontalRule />
+		<ContacForm />
 	</Box>
 );
 
