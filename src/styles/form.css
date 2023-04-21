@@ -53,9 +53,28 @@ label {
   color: #ddd;
 }
 
+.download {
+  position: absolute;
+  top: 70vh;
+  left: 87%;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 24px;
+  border: 2px solid brown;
+  padding: 12px;
+}
+
 @media screen and (max-width: 600px) {
   input[type=submit] {
     width: 100%;
     margin-top: 0;
+  }
+
+  .download {
+    position: absolute;
+    top: 90vh;
+    left: 80%;
+    font-size: 18px;
+    text-decoration: none;
   }
 }

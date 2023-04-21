@@ -12,7 +12,7 @@ export const ContacForm = () => {
   // }
 
   return (
-    <Box className="form-container" mb="46px">
+    <Box className="form-container" mb="46px" mt="46px">
     	<Typography
 				variant="h3"
 				color="#ddd"

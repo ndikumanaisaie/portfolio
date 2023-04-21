@@ -2,7 +2,7 @@
 import React from 'react';
 
 import {
-	Box, Stack, Typography, Button,
+	Box, Stack, Typography, Link,
 } from '@mui/material';
 import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
 
@@ -27,6 +27,17 @@ const HeroBanner = () => (
 		>
 			Full Stack developer
 		</Typography>
+
+		<Link
+			className="download"
+			target="_blank"
+			href="../images/awosome.png"
+			type="application/octet-stream"
+			download="../images/eac.png"
+			style={{ textDecoration: 'none' }}
+		>
+  		Resume
+		</Link>
 
 		<Typography
 			className="intro"
