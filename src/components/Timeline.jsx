@@ -49,26 +49,6 @@ const Timeline = () => {
 
 	return (
 		<Stack id="about" mt={8}>
-			<Typography
-				variant="h3"
-				mt="20px"
-				mb="20px"
-				color="#ddd"
-			>About Me</Typography>
-			<Typography
-				mb={8}
-				color="#ddd"
-				textAlign="justify"
-				fontSize="22px"
-				sx={{ width: { lg: '60%', xs: '100%' } }}
-			>
-				I am a solution-oriented Front-End Developer,
-				lifelong learner, and adventure with a background in electronics.
-				I enjoy development because of the satisfaction I get by overcoming challenges.
-				I am motivated by the opportunity that web development
-				provides to positively impact individual life,
-				family, and the world as a whole. I am open to new opportunities.
-			</Typography>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>
 					{timeLineData.map((item, index) => (

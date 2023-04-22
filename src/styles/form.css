@@ -53,10 +53,12 @@ label {
   color: #ddd;
 }
 
+.hero-banner {
+  position: relative;
+}
+
 .download {
-  position: absolute;
-  top: 70vh;
-  left: 87%;
+  width: 16%;
   text-decoration: none;
   border-radius: 12px;
   font-size: 24px;
@@ -64,17 +66,13 @@ label {
   padding: 12px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 
   .download {
-    position: absolute;
-    top: 90vh;
-    left: 80%;
-    font-size: 18px;
-    text-decoration: none;
+    width: 50%;
   }
 }

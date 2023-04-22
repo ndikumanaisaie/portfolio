@@ -28,17 +28,6 @@ const HeroBanner = () => (
 			Full Stack developer
 		</Typography>
 
-		<Link
-			className="download"
-			target="_blank"
-			href="../images/awosome.png"
-			type="application/octet-stream"
-			download="../images/eac.png"
-			style={{ textDecoration: 'none' }}
-		>
-  		Resume
-		</Link>
-
 		<Typography
 			className="intro"
 			fontSize="22px"

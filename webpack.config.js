@@ -34,12 +34,15 @@ module.exports = {
 				}],
 			},
 			{
-				test: /\.(png|jpe?g|gif)$/i,
+				test: /\.(png|svg|jpg|gif|pdf)$/,
 				use: [
 					{
 						loader: 'file-loader',
-					},
-				],
+						options: {
+							name: '[name].[ext]'
+						}
+					}
+				]
 			},
 		],
 	},

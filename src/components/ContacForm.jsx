@@ -1,7 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import { TextField, Button, Stack, Box, Typography } from '@mui/material';
-import Textarea from '@mui/joy/Textarea';
+import { Box, Typography } from '@mui/material';
 import '../styles/form.css';
 
 export const ContacForm = () => {
@@ -21,6 +20,20 @@ export const ContacForm = () => {
         Get in touch
 			</Typography>
       <form className="form" onSubmit={handleSubmit}>
+        <label htmlFor="name">
+          Full Name
+        </label>
+        <input
+          id="name"
+          type="text" 
+          name="name"
+          placeholder="Enter your full name here"
+        />
+        <ValidationError 
+          prefix="Name" 
+          field="name"
+          errors={state.errors}
+        />
         <label htmlFor="email">
           Email
         </label>
