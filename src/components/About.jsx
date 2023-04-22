@@ -11,15 +11,15 @@ const About = () => (
 				mb="20px"
 				color="#ddd"
 			>About Me</Typography>
-			<Stack
+			<Box
 				gap="40px"
 				fontSize="24px"
 				alignItems="center"
 				marginTop="0.2rem"
-				sx={{ direction: { xl: 'row', lg: 'row', md: 'row', sm: 'column', xs: 'column' } }}
+				className="about-me"
 			>
 				<Typography
-					mb={8}
+					mb={2}
 					color="#ddd"
 					textAlign="justify"
 					fontSize="22px"
@@ -42,7 +42,7 @@ const About = () => (
 				>
 					Get my Resume
 				</Link>
-			</Stack>
+			</Box>
 	</Box>
 );
 

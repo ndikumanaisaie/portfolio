@@ -9,6 +9,7 @@
   flex-direction: column;
   gap: 12px;
   margin-top: 30px;
+  margin-bottom: 10rem;
   width: 50%;
   align-items: left;
 }
@@ -53,10 +54,6 @@ label {
   color: #ddd;
 }
 
-.hero-banner {
-  position: relative;
-}
-
 .download {
   width: 16%;
   text-decoration: none;
@@ -66,13 +63,28 @@ label {
   padding: 12px;
 }
 
+.about-me {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 768px) {
+  .form {
+    width: 100%;
+    align-items: left;
+  }
+
   input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 
   .download {
-    width: 50%;
+    width: 60%;
+    padding: 6px;
+  }
+
+  .about-me {
+    flex-direction: column;
   }
 }
