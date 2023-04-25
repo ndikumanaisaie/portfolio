@@ -106,16 +106,15 @@ export const projects = [
 
 export const timeLineData = [
 	{ year: 2012, text: 'Introduction to programming' },
-	{ year: '2012-2016', text: 'College + Programming for fun' },
-	{ year: 2017, text: 'Start building static websites with html and css' },
-	{ year: '2018-2020', text: 'Building mobile apps using java and Android Studio code' },
-	{ year: 2021, text: 'Started building dynamic website using javascript' },
-	{ year: 2022, text: 'Started learning at Microverse a remote collaboration based programming school' },
+	{ year: '2012-2016', text: 'College + Building c, c++ command line applications' },
+	{ year: 2017, text: 'Started building dynamic websites with html and css and JavaScript' },
+	{ year: '2018-2020', text: 'Building mobile apps using java and Android Studio' },
+	{ year: '2021-Present', text: 'Full Stack JavaScript, React, Ruby and Rails Developer' },
 ];
 
 export const accomplishment = [
-	{ number: 27, text: 'Repositories' },
-	{ number: 528, text: 'Contributions' },
-	{ number: 45, text: 'Github Followers' },
-	{ number: 124, text: 'Github Stars' },
+	{ number: 52, text: 'Repositories' },
+	{ number: 1576, text: 'Contributions' },
+	{ number: 71, text: 'Github Followers' },
+	{ number: 332, text: 'Github Stars' },
 ];
