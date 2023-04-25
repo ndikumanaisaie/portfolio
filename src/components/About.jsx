@@ -9,7 +9,7 @@ const About = () => (
 		<Box id="about">
 			<Typography
 					variant="h3"
-					mt="20px"
+					mt={4}
 					mb="20px"
 					color="#ddd"
 				>About Me</Typography>

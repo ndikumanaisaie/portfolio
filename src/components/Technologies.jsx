@@ -35,9 +35,9 @@ const Technologies = () => (
 				fontSize="22px"
 				sx={{ width: { lg: '60%', xs: '100%' } }}
 			>
-				I've worked with a range of Front-End technologies in the web development world.
-				I have 4 years of experience working with my personal project. I am currently learning
-				MERN Stack to become a Full-Stack web developer.
+				I've worked with a range of Front-End And Back-End technologies in the web development world.
+				I have mastered intermediate and advanced topics in full-stack development (including Rails, React, NextJS, UI/UX, Git, and DS&A challenges)
+				while building multiple full-stack projects both independently and via pair programming.
 			</Typography>
 
 			<Stack
@@ -220,7 +220,7 @@ const Technologies = () => (
 										<DiDatabase size={30} color="#ddd" />
 									</ListItemIcon>
 									<ListItemText
-										primary="Dabaseses"
+										primary="Databases"
 										secondary={
 											<React.Fragment>
 												<Typography
@@ -229,7 +229,47 @@ const Technologies = () => (
 													variant="body2"
 													color="#aaaaba"
 												>
-													Beginner
+													Experienced
+												</Typography>
+											</React.Fragment>
+										}
+									/>
+								</ListItem>
+								<ListItem>
+									<ListItemIcon>
+										<DiDatabase size={30} color="#ddd" />
+									</ListItemIcon>
+									<ListItemText
+										primary="Ruby"
+										secondary={
+											<React.Fragment>
+												<Typography
+													sx={{ display: 'inline' }}
+													component="span"
+													variant="body2"
+													color="#aaaaba"
+												>
+													Experienced
+												</Typography>
+											</React.Fragment>
+										}
+									/>
+								</ListItem>
+								<ListItem>
+									<ListItemIcon>
+										<DiDatabase size={30} color="#ddd" />
+									</ListItemIcon>
+									<ListItemText
+										primary="Rails"
+										secondary={
+											<React.Fragment>
+												<Typography
+													sx={{ display: 'inline' }}
+													component="span"
+													variant="body2"
+													color="#aaaaba"
+												>
+													Experienced
 												</Typography>
 											</React.Fragment>
 										}
@@ -249,13 +289,15 @@ const Technologies = () => (
 													variant="body2"
 													color="#aaaaba"
 												>
-													Beginner
+													Intermediate
 												</Typography>
 											</React.Fragment>
 										}
 									/>
 								</ListItem>
-								<ListItem>
+							</div>
+							<div>
+							<ListItem>
 									<ListItemIcon>
 										<DiNodejs size={30} color="#ddd" />
 									</ListItemIcon>
@@ -269,14 +311,12 @@ const Technologies = () => (
 													variant="body2"
 													color="#aaaaba"
 												>
-													Beginner
+													Advanced
 												</Typography>
 											</React.Fragment>
 										}
 									/>
 								</ListItem>
-							</div>
-							<div>
 								<ListItem>
 									<ListItemIcon>
 										<DiJsBadge size={30} color="#ddd" />
@@ -311,7 +351,7 @@ const Technologies = () => (
 													variant="body2"
 													color="#aaaaba"
 												>
-													Beginner
+													Experienced
 												</Typography>
 											</React.Fragment>
 										}
