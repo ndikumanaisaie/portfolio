@@ -46,7 +46,7 @@ const Navbar = () => {
 						textDecoration: 'none',
 					}}
 				>
-					<VscCode size="3rem" /> <span>Portfolio</span>
+					<VscCode size="3rem" /> <span>Ndikumana Isaie</span>
 				</Box>
 			</Link>
 			<div

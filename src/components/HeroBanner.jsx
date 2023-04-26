@@ -4,15 +4,19 @@ import Bounce from 'react-reveal/Bounce';
 import { TypeAnimation } from 'react-type-animation';
 
 import {
-	Box, Stack, Typography, Link,
+	Box, Stack, Typography,
 } from '@mui/material';
 import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
 
 const HeroBanner = () => (
 	<Bounce right>
 		<Box
-			sx={{ mt: { lg: '112px', xs: '70px' } }}
+			display="flex"
+			flexDirection="column"
+			sx={{ mt: { lg: '0', xs: '70px' } }}
 			color="#ddd"
+			textAlign="center"
+			alignItems="center"
 		>
 			<Typography
 				fontWeight={700}
@@ -20,7 +24,7 @@ const HeroBanner = () => (
 				mt="30px"
 				sx={{ fontSize: { lg: '44px', xs: '40px' } }}
 			>
-					Hi, <br /> I am Ndikumana Isaie
+					Hi,👋 <br /> I am Ndikumana Isaie
 			</Typography>
 			<Typography
 				fontSize={32}

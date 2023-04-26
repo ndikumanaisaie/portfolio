@@ -33,7 +33,7 @@ const Technologies = () => (
 				color="#ddd"
 				textAlign="justify"
 				fontSize="22px"
-				sx={{ width: { lg: '60%', xs: '100%' } }}
+				sx={{ width: { lg: '80%', xs: '100%' } }}
 			>
 				I've worked with a range of Front-End And Back-End technologies in the web development world.
 				I have mastered intermediate and advanced topics in full-stack development (including Rails, React, NextJS, UI/UX, Git, and DS&A challenges)

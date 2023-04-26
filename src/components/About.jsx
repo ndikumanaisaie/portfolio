@@ -25,7 +25,7 @@ const About = () => (
 						color="#ddd"
 						textAlign="justify"
 						fontSize="22px"
-						sx={{ width: { lg: '60%', xs: '100%' } }}
+						sx={{ width: { lg: '80%', xs: '100%' } }}
 					>
 						I am a solution-oriented Front-End Developer,
 						lifelong learner, and adventure with a background in electronics.
