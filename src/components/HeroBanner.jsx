@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import Bounce from 'react-reveal/Bounce';
+import { TypeAnimation } from 'react-type-animation';
 
 import {
 	Box, Stack, Typography, Link,
@@ -27,7 +28,24 @@ const HeroBanner = () => (
 				mb={4}
 				color="#7cacdc"
 			>
-				Full Stack developer
+				<TypeAnimation
+					sequence={[
+						'Full',
+						1000,
+						'Full Stack',
+						1000,
+						'Full Stack Developer',
+						1000,
+						'Full Stack',
+						1000,
+						'Full',
+						1000,
+						'',
+						1000,
+					]}
+					style={{ fontSize: '1.2em' }}
+					repeat={Infinity}
+				/>
 			</Typography>
 
 			<Typography

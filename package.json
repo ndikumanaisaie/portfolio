@@ -47,7 +47,8 @@
     "react-loader-spinner": "^5.1.5",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "react-type-animation": "^3.0.1"
   },
   "scripts": {
     "format": "prettier-eslint --eslint-config-path ./.eslintrc.js --write '**/*.js'",
