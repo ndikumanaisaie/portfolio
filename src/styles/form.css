@@ -25,6 +25,7 @@ input[type=text] {
   width: 100%;
   padding: 12px;
   border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
 }
 
 textarea {
@@ -55,12 +56,19 @@ label {
 }
 
 .download {
-  width: 20%;
   text-decoration: none;
-  border-radius: 12px;
-  font-size: 24px;
-  border: 2px solid brown;
-  padding: 12px;
+  color: rgb(5, 100, 189);
+  font-size: 1.2rem;
+  padding: 0.4rem 0.9rem;
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 1px solid #0564bd;
+  transition: 0.5s;
+}
+
+.download:hover {
+  background: #0564bd;
+  color: rgb(255, 255, 255);
 }
 
 .about-me {

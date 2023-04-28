@@ -16,7 +16,7 @@ const ProjectCard = ({ project, timeLineData }) => (
 				alt={project.title}
 			/>
 			<Typography
-				color="#3d90e3"
+				color="#0564bd"
 				fontSize={30}
 			>
 				{project.title}
@@ -27,7 +27,7 @@ const ProjectCard = ({ project, timeLineData }) => (
 				gap={2}
 				p={1}
 			>
-				<p style={{ textAlign: 'justify', color: '#ddd' }}>
+				<p style={{ textAlign: 'justify', color: '#444f5a' }}>
 					{
 						project.description.length > 100
 							? `${project.description.substring(0, 150)} ...`
@@ -43,7 +43,7 @@ const ProjectCard = ({ project, timeLineData }) => (
 			</Stack>
 
 			<Typography
-				color="#3da0e3"
+				color="#0564bd"
 				pt={2}
 				fontSize="18px"
 			>Stack</Typography>

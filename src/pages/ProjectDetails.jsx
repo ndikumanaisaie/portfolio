@@ -27,26 +27,29 @@ const ProjectDetails = () => {
 				<Typography
 					mb="12px"
 					fontSize={30}
-					color="#3d90e3"
+					color="#0564bd"
 				>
 					{data.title}
 				</Typography>
 
 				<Typography
+					color="#444f5a"
 					textAlign="justify"
 				>
 					{data.description}
 				</Typography>
 
 				<Typography
-					color="#3da0e3"
+					color="#0564bd"
 					pt={2}
 					fontSize="18px"
 				>
 					Stack
 				</Typography>
 
-				<Typography>
+				<Typography
+					color="#444f5a"
+				>
 					This project was built using Below Technologies
 				</Typography>
 

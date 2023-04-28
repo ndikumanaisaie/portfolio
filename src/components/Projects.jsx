@@ -30,7 +30,7 @@ const Projects = () => {
 				<Typography
 					variant="h3"
 					mb="46px"
-					color="#ddd"
+					color="#444f5a"
 				>
 					Projects
 				</Typography>
@@ -62,7 +62,7 @@ const Projects = () => {
 								onChange= {paginate}
 								size="large"
 								sx={{
-									color: '#ddd', backgroundColor: '#3d90e3', borderRadius: '10px',
+									color: '#0564bd', backgroundColor: '#3d90e3', borderRadius: '10px',
 								}}
 							/>
 						)

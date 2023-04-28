@@ -17,17 +17,19 @@ body {
 }
 
 .home-container {
-  margin: 0 10px 0 10px;
-  border: 2px solid red;
+  margin: 0 5px 0 5px;
+  border: 2px solid rgba(5, 100, 189, 0.06);
+  box-shadow: 4px 4px 10px rgba(5, 100, 189, 0.06);
+  padding: 2rem;
 }
 
 .social-icon {
-  color: #444f5a;
+  color: rgb(69, 79, 89);
   border-radius: 50px;
 }
 
 .social-icon:hover {
-  background-color: #0564bd;
+  background-color: rgb(5, 100, 189);
   cursor: pointer;
 }
 

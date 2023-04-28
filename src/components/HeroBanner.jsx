@@ -14,7 +14,7 @@ const HeroBanner = () => (
 			display="flex"
 			flexDirection="column"
 			sx={{ mt: { lg: '0', xs: '70px' } }}
-			color="#ddd"
+			color="#444f5a"
 			textAlign="center"
 			alignItems="center"
 		>
@@ -77,7 +77,7 @@ const HeroBanner = () => (
 					target="_blank"
 					rel="noreferrer"
 				>
-					<AiFillGithub size="2rem" />
+					<AiFillGithub size="1.8rem" />
 				</a>
 				<a
 					className="social-icon"
@@ -85,7 +85,7 @@ const HeroBanner = () => (
 					target="_blank"
 					rel="noreferrer"
 				>
-					<AiFillLinkedin size="2rem" />
+					<AiFillLinkedin size="1.8rem" />
 				</a>
 				<a
 					className="social-icon"
@@ -93,7 +93,7 @@ const HeroBanner = () => (
 					target="_blank"
 					rel="noreferrer"
 				>
-					<AiFillTwitterCircle size="2rem"/>
+					<AiFillTwitterCircle size="1.8rem"/>
 				</a>
 			</Stack>
 		</Box>

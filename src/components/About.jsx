@@ -11,7 +11,7 @@ const About = () => (
 					variant="h3"
 					mt={4}
 					mb="20px"
-					color="#ddd"
+					color="#444f5a"
 				>About Me</Typography>
 				<Box
 					gap="40px"
@@ -22,7 +22,7 @@ const About = () => (
 				>
 					<Typography
 						mb={2}
-						color="#ddd"
+						color="#444f5a"
 						textAlign="justify"
 						fontSize="22px"
 						sx={{ width: { lg: '80%', xs: '100%' } }}

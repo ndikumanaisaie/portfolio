@@ -85,10 +85,10 @@ const Timeline = () => {
 													x2="208"
 													y2="0.500295"
 													gradientUnits="userSpaceOnUse">
-													<stop stopColor="white" />
+													<stop stopColor="#444f5a" />
 													<stop
 														offset="0.79478"
-														stopColor="white"
+														stopColor="#444f5a"
 														stopOpacity="0"
 													/>
 												</linearGradient>

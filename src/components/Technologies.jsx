@@ -18,19 +18,19 @@ import '../styles/tech.css';
 
 const Technologies = () => (
 	<Reveal effect="fadeInUp">
-		<Box id="technologies" color="#ddd">
+		<Box id="technologies" color="#444f5a">
 			<Typography
 				variant="h3"
 				mt="50px"
 				mb="46px"
-				color="#ddd"
+				color="#444f5a"
 			>
 				Technologies
 			</Typography>
 
 			<Typography
 				mb="12px"
-				color="#ddd"
+				color="#444f5a"
 				textAlign="justify"
 				fontSize="22px"
 				sx={{ width: { lg: '80%', xs: '100%' } }}
@@ -47,11 +47,12 @@ const Technologies = () => (
 			>
 				<Stack
 					direction="column"
-					backgroundColor="#051010"
+					backgroundColor="#ffffff"
 					borderRadius="10px"
+					boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
 					sx={{ width: { lg: '30%' } }}
 				>
-					<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#3d90e3" variant="h4" component="div">
+					<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#0564bd" variant="h4" component="div">
 							Front-End
 					</Typography>
 					<List>
@@ -59,7 +60,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiJavascript size={30} color="#ddd" />
+										<DiJavascript size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="JavaScript"
@@ -68,7 +69,7 @@ const Technologies = () => (
 												<Typography
 													sx={{ display: 'inline' }}
 													component="span"
-													variant="body2"
+													variant="body3"
 													color="#aaaaba"
 												>
 											Experienced
@@ -79,7 +80,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiReact size={30} color="#ddd" />
+										<DiReact size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="React & Redux"
@@ -99,7 +100,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiHtml5 size={30} color="#ddd" />
+										<DiHtml5 size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="HTML5"
@@ -119,7 +120,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiCss3Full size={30} color="#ddd" />
+										<DiCss3Full size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="CSS3"
@@ -141,7 +142,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiBootstrap size={30} color="#ddd" />
+										<DiBootstrap size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Bootstrap"
@@ -161,7 +162,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiHtml5 size={30} color="#ddd" />
+										<DiHtml5 size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Material UI"
@@ -181,7 +182,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiHtml5 size={30} color="#ddd" />
+										<DiHtml5 size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Ant Design"
@@ -205,11 +206,12 @@ const Technologies = () => (
 				</Stack>
 				<Stack
 					direction="column"
-					backgroundColor="#051010"
+					backgroundColor="#ffffff"
 					borderRadius="10px"
+					boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
 					sx={{ width: { lg: '30%' } }}
 				>
-					<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#3d90e3" textAlign="center" variant="h4" component="div">
+					<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#0564bd" textAlign="center" variant="h4" component="div">
 							Back-End
 					</Typography>
 					<List>
@@ -217,7 +219,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiDatabase size={30} color="#ddd" />
+										<DiDatabase size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Databases"
@@ -237,7 +239,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiDatabase size={30} color="#ddd" />
+										<DiDatabase size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Ruby"
@@ -257,7 +259,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiDatabase size={30} color="#ddd" />
+										<DiDatabase size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Rails"
@@ -277,7 +279,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiMongodb size={30} color="#ddd" />
+										<DiMongodb size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="MangoDb"
@@ -299,7 +301,7 @@ const Technologies = () => (
 							<div>
 							<ListItem>
 									<ListItemIcon>
-										<DiNodejs size={30} color="#ddd" />
+										<DiNodejs size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Express.js"
@@ -319,7 +321,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiJsBadge size={30} color="#ddd" />
+										<DiJsBadge size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Next.js"
@@ -339,7 +341,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiNodejs size={30} color="#ddd" />
+										<DiNodejs size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Node.js"
@@ -363,11 +365,12 @@ const Technologies = () => (
 				</Stack>
 				<Stack
 					direction="column"
-					backgroundColor="#051010"
+					backgroundColor="#ffffff"
 					borderRadius="10px"
+					boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
 					sx={{ width: { lg: '30%' } }}
 				>
-					<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#3d90e3" textAlign="center" variant="h4" component="div">
+					<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#0564bd" textAlign="center" variant="h4" component="div">
 						Other Skills
 					</Typography>
 					<List>
@@ -375,7 +378,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiGit size={30} color="#ddd" />
+										<DiGit size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Git"
@@ -395,7 +398,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiGithubBadge size={30} color="#ddd" />
+										<DiGithubBadge size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="GitHub"
@@ -415,7 +418,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiTerminal size={30} color="#ddd" />
+										<DiTerminal size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Terminal"
@@ -437,7 +440,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiGit size={30} color="#ddd" />
+										<DiGit size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Media Q"
@@ -457,7 +460,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiGit size={30} color="#ddd" />
+										<DiGit size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Team Work"
@@ -477,7 +480,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiGit size={30} color="#ddd" />
+										<DiGit size={30} color="#444f5a" />
 									</ListItemIcon>
 									<ListItemText
 										primary="Remote pair programming"

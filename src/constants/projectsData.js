@@ -17,7 +17,7 @@ export const projects = [
 		tags: ['Javascript', 'React & Redux', 'Ant Design', 'RapidApi'],
 		source: 'https://github.com/ndikumanaisaie/cryptoproject.git/',
 		visit: 'https://ndikumana-cryptocurrency.netlify.app/',
-		id: 0,
+		id: 1,
 	},
 	{
 		title: 'EAC Developer Summit',
@@ -28,7 +28,7 @@ export const projects = [
 		tags: ['Javascript', 'HTML5', 'Media Queries'],
 		source: 'https://github.com/ndikumanaisaie/Capstone1_EADS.git',
 		visit: 'https://ndikumanaisaie.github.io/Capstone1_EADS/',
-		id: 1,
+		id: 2,
 	},
 	{
 		title: 'TV Show',
@@ -37,7 +37,7 @@ export const projects = [
 		tags: ['JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'TVMaze Api'],
 		source: 'https://github.com/ndikumanaisaie/JS_capstone_TVshows.git',
 		visit: 'https://ndikumanaisaie.github.io/JS_capstone_TVshows/dist/',
-		id: 2,
+		id: 3,
 	},
 	{
 		title: 'Feetness',
@@ -55,7 +55,7 @@ export const projects = [
 		tags: ['React', 'JavaScript', 'Material UI', 'Styled Component'],
 		source: 'https://github.com/ndikumanaisaie/portfolio.git',
 		visit: 'https://ndikumanaisaie.netlify.app/',
-		id: 9,
+		id: 4,
 	},
 	{
 		title: 'To-do List',
@@ -73,7 +73,7 @@ export const projects = [
 		tags: ['React', 'omdbApi', 'HTML5', 'CSS3'],
 		source: 'https://github.com/ndikumanaisaie/react_course.git',
 		visit: 'https://ndikumanaisaie.github.io/react_course/dist/',
-		id: 4,
+		id: 6,
 	},
 	{
 		title: 'Awesome Books',
@@ -82,7 +82,7 @@ export const projects = [
 		tags: ['JavaScript', 'HTML5', 'CSS3', 'webpack'],
 		source: 'https://github.com/ndikumanaisaie/awesome-books.git',
 		visit: 'https://ndikumanaisaie.github.io/awesome-books/',
-		id: 6,
+		id: 7,
 	},
 	{
 		title: 'Portfolio',
@@ -91,7 +91,7 @@ export const projects = [
 		tags: ['JavaScript', 'HTML5', 'CSS3'],
 		source: 'https://github.com/ndikumanaisaie/portfolio_ndikumana.git',
 		visit: 'https://ndikumanaisaie.github.io/portfolio_ndikumana/',
-		id: 7,
+		id: 8,
 	},
 	{
 		title: 'Leaderboard',
@@ -100,7 +100,7 @@ export const projects = [
 		tags: ['JavaScript', 'HTML5', 'CSS3', 'Leaderboard API'],
 		source: 'https://github.com/ndikumanaisaie/Leaderboard.git',
 		visit: 'https://ndikumanaisaie.github.io/Leaderboard/dist/',
-		id: 8,
+		id: 9,
 	},
 ];
 
