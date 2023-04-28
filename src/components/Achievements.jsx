@@ -6,7 +6,7 @@ import Bounce from 'react-reveal/Bounce';
 
 const Achievements = () => (
 	<Bounce left>
-		<Box mt={4} color="#ddd" pb={16}>
+		<Box mt={4} color="#444f5a" pb={16}>
 			<Typography variant="h3">
 				Personal Achievements
 			</Typography>
@@ -27,10 +27,10 @@ const Achievements = () => (
 							textAlign="center"
 							key={index}
 							p={2}
-							sx={{ backgroundColor: '#051010' }}
+							sx={{ backgroundColor: '#ffffff' }}
 
 						>
-							<Typography variant="h4">
+							<Typography variant="h4" color="#0564bd">
 								{`${acc.number}+`}
 							</Typography>
 							<Typography fontSize="14px">
