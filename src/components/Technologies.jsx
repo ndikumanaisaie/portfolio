@@ -13,6 +13,26 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import rails from '../images/rails.svg';
+import ruby from '../images/ruby.svg';
+import database from '../images/database.svg';
+import mongodb from '../images/mongodb.svg';
+import express from '../images/express.svg';
+import next from '../images/nextjs.svg';
+import node from '../images/node.svg';
+import javascript from '../images/javascript.svg';
+import bootstrap from '../images/bootstrap.svg';
+import react from '../images/react.svg';
+import mui from '../images/mui.svg';
+import ant from '../images/ant.svg';
+import html from '../images/html.svg';
+import css from '../images/css.svg';
+import git from '../images/git.svg';
+import github from '../images/github.svg';
+import terminal from '../images/terminal.svg';
+import media from '../images/media.svg';
+import team from '../images/team.svg';
+import internet from '../images/internet.svg';
 
 import '../styles/tech.css';
 
@@ -60,7 +80,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiJavascript size={30} color="#444f5a" />
+										<img className="rails-img" src={javascript} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="JavaScript"
@@ -80,7 +100,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiReact size={30} color="#444f5a" />
+										<img className="rails-img" src={react} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="React & Redux"
@@ -100,7 +120,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiHtml5 size={30} color="#444f5a" />
+										<img className="rails-img" src={html} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="HTML5"
@@ -120,7 +140,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiCss3Full size={30} color="#444f5a" />
+										<img className="rails-img" src={css} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="CSS3"
@@ -142,7 +162,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiBootstrap size={30} color="#444f5a" />
+									<img className="rails-img" src={bootstrap} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Bootstrap"
@@ -162,7 +182,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiHtml5 size={30} color="#444f5a" />
+										<img className="rails-img" src={mui} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Material UI"
@@ -182,7 +202,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiHtml5 size={30} color="#444f5a" />
+									<img className="rails-img" src={ant} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Ant Design"
@@ -219,7 +239,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiDatabase size={30} color="#444f5a" />
+										<img className="rails-img" src={database} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Databases"
@@ -239,7 +259,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiDatabase size={30} color="#444f5a" />
+									<img className="rails-img" src={ruby} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Ruby"
@@ -259,7 +279,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiDatabase size={30} color="#444f5a" />
+										<img className="rails-img" src={rails} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Rails"
@@ -279,7 +299,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiMongodb size={30} color="#444f5a" />
+									<img className="rails-img" src={mongodb} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="MangoDb"
@@ -301,7 +321,7 @@ const Technologies = () => (
 							<div>
 							<ListItem>
 									<ListItemIcon>
-										<DiNodejs size={30} color="#444f5a" />
+										<img className="rails-img" src={express} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Express.js"
@@ -321,7 +341,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiJsBadge size={30} color="#444f5a" />
+										<img className="rails-img" src={next} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Next.js"
@@ -341,7 +361,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiNodejs size={30} color="#444f5a" />
+										<img className="rails-img" src={node} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Node.js"
@@ -378,7 +398,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiGit size={30} color="#444f5a" />
+										<img className="rails-img" src={git} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Git"
@@ -398,7 +418,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiGithubBadge size={30} color="#444f5a" />
+									<img className="rails-img" src={github} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="GitHub"
@@ -418,7 +438,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiTerminal size={30} color="#444f5a" />
+										<img className="rails-img" src={terminal} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Terminal"
@@ -440,7 +460,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiGit size={30} color="#444f5a" />
+										<img className="rails-img" src={media} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Media Q"
@@ -460,7 +480,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiGit size={30} color="#444f5a" />
+										<img className="rails-img" src={team} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Team Work"
@@ -480,7 +500,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiGit size={30} color="#444f5a" />
+										<img className="rails-img" src={internet} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Remote pair programming"

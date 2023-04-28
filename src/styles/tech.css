@@ -4,6 +4,11 @@
   margin: 32px 0;
 }
 
+.rails-img {
+  width: 54px;
+  height: 38px;
+}
+
 @media screen and (min-width: 768px) {
   .tech {
     list-style-type: none;
