@@ -15,7 +15,7 @@
 }
 
 input:focus {
-  outline: 0;
+  outline: 1;
   box-shadow: none;
   border-color: transparent;
   color: white;
@@ -33,26 +33,33 @@ textarea {
   resize: vertical;
   padding: 15px;
   border-radius: 15px;
-  border: 0;
+  border: 2;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
   height: 150px;
 }
 
+textarea:focus {
+  outline: 0;
+  border: 2;
+}
+
 input[type=submit] {
-  background-color: #3d90e3;
+  background-color: rgb(69, 79, 89);
   color: white;
-  width: 15%;
+  width: 30%;
   padding: 12px 20px;
-  border: 2px solid green;
-  border-radius: 4px;
+  border: 2px solid rgb(69, 79, 89);
+  border-radius: 45px;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #0564bd;
+  color: white;
+  cursor: pointer;
 }
 
 label {
-  color: #ddd;
+  color: rgb(69, 79, 89);
 }
 
 .download {

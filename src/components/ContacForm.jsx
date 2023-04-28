@@ -13,7 +13,7 @@ export const ContacForm = () => {
       <Box className="form-container" mb="46px" mt="46px">
         <Typography
           variant="h3"
-          color="#ddd"
+          color="#454f59"
           background="#fff" 
         >
           Get in touch
