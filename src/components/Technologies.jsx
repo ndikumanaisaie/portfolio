@@ -4,10 +4,6 @@ import {
 	Typography, Box, Stack,
 } from '@mui/material';
 import Reveal from 'react-reveal/Reveal';
-import {
-	DiCss3Full, DiReact, DiDatabase, DiJavascript, DiJsBadge, DiNodejs,
-	DiBootstrap, DiGit, DiGithubBadge, DiHtml5, DiTerminal, DiMongodb,
-} from 'react-icons/di';
 
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -162,7 +158,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-									<img className="rails-img" src={bootstrap} alt="ruby on rails"/>
+										<img className="rails-img" src={bootstrap} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Bootstrap"
@@ -202,7 +198,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-									<img className="rails-img" src={ant} alt="ruby on rails"/>
+										<img className="rails-img" src={ant} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Ant Design"
@@ -259,7 +255,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-									<img className="rails-img" src={ruby} alt="ruby on rails"/>
+										<img className="rails-img" src={ruby} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Ruby"
@@ -299,7 +295,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-									<img className="rails-img" src={mongodb} alt="ruby on rails"/>
+										<img className="rails-img" src={mongodb} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="MangoDb"
@@ -319,7 +315,7 @@ const Technologies = () => (
 								</ListItem>
 							</div>
 							<div>
-							<ListItem>
+								<ListItem>
 									<ListItemIcon>
 										<img className="rails-img" src={express} alt="ruby on rails"/>
 									</ListItemIcon>
@@ -418,7 +414,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-									<img className="rails-img" src={github} alt="ruby on rails"/>
+										<img className="rails-img" src={github} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="GitHub"

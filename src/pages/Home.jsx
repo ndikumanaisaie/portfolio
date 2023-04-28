@@ -13,7 +13,6 @@ import About from '../components/About.jsx';
 import BgAnimation from '../constants/animation.js';
 import { ContacForm } from '../components/ContacForm.jsx';
 
-
 const Home = () => (
 	<Box className="home-container">
 		<HeroBanner />

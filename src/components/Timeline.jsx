@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useRef, useEffect } from 'react';
-import { Stack} from '@mui/material';
+import { Stack } from '@mui/material';
 import Bounce from 'react-reveal/Bounce';
 
 import {
