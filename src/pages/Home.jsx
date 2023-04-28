@@ -15,7 +15,7 @@ import { ContacForm } from '../components/ContacForm.jsx';
 
 
 const Home = () => (
-	<Box m="10%">
+	<Box className="home-container">
 		<HeroBanner />
 		<BgAnimation />
 		<HorizontalRule />

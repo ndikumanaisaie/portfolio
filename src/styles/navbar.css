@@ -1,10 +1,35 @@
 .menu {
-  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 5rem;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-control-container {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .menu-item {
   text-decoration: none;
-  color: #3d90e3;
+  color: #444f5a;
+}
+
+.menu-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu-item:hover {
@@ -16,18 +41,15 @@
     display: none !important;
   }
 
-  .menu {
-    display: flex;
-    position: relative;
-    right: inherit;
-    flex-direction: row;
-    gap: 32px;
+  .menu-container {
     justify-content: space-between;
+    margin: 0 10% 0 10%;
   }
 
   .menu-item-container {
-    display: flex;
-    gap: 50vh;
+    /* border: 2px solid green; */
+    justify-content: space-around;
+    gap: 12rem;
   }
 
   .portfolio-container {
