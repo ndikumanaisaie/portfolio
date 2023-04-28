@@ -116,5 +116,5 @@ export const accomplishment = [
 	{ number: 52, text: 'Repositories' },
 	{ number: 1576, text: 'Contributions' },
 	{ number: 71, text: 'Github Followers' },
-	{ number: 332, text: 'Github Stars' },
+	{ number: 395, text: 'Github Stars' },
 ];

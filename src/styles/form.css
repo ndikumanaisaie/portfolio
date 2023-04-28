@@ -15,17 +15,27 @@
 }
 
 input:focus {
-  outline: 1;
+  outline: 0;
   box-shadow: none;
   border-color: transparent;
-  color: white;
+  color: rgb(69, 79, 89);
 }
 
+input[type=email],
 input[type=text] {
   width: 100%;
   padding: 12px;
   border-radius: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.06);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  box-shadow: none;
 }
 
 textarea {
@@ -33,14 +43,13 @@ textarea {
   resize: vertical;
   padding: 15px;
   border-radius: 15px;
-  border: 2;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
   height: 150px;
 }
 
 textarea:focus {
   outline: 0;
-  border: 2;
 }
 
 input[type=submit] {

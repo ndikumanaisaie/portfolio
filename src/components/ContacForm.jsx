@@ -27,6 +27,7 @@ export const ContacForm = () => {
             type="text" 
             name="name"
             placeholder="Enter your full name here"
+            required
           />
           <ValidationError 
             prefix="Name" 
@@ -38,9 +39,10 @@ export const ContacForm = () => {
           </label>
           <input
             id="email"
-            type="text" 
+            type="email" 
             name="email"
             placeholder="Enter your email"
+            required
           />
           <ValidationError 
             prefix="Email" 
@@ -54,6 +56,7 @@ export const ContacForm = () => {
             id="message"
             name="message"
             placeholder="Enter your message here"
+            required
           />
           <ValidationError 
             prefix="Message" 
