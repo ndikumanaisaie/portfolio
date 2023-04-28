@@ -11,7 +11,6 @@ export const CarouselContainer = styled.ul`
   padding: 0rem;
   color: #444f5a;
   list-style:none;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
   display: flex;
   justify-content: space-between; 
   // border: 2px solid green;
@@ -48,6 +47,7 @@ export const CarouselMobileScrollNode = styled.div`
 `;
 
 export const CarouselItem = styled.div`
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
   background: #ffffff;
   border-radius: 10px;
   color: #444f5a;

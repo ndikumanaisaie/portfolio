@@ -17,7 +17,7 @@ body {
 }
 
 .home-container {
-  margin: 0 5px 0 5px;
+  margin: 0 10px 0 10px;
   border: 2px solid rgba(5, 100, 189, 0.06);
   box-shadow: 4px 4px 10px rgba(5, 100, 189, 0.06);
   padding: 2rem;
@@ -66,6 +66,6 @@ body {
   }
 
   .home-container {
-    margin: 0 10% 0 10%;
+    margin: 0 7% 0 7%;
   }
 }
