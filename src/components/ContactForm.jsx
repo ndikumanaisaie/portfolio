@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { Box, Typography } from '@mui/material';
 import Reveal from 'react-reveal/Reveal';
 import '../styles/form.css';
 
-export const ContacForm = () => {
+const ContactForm = () => {
 	const [state, handleSubmit] = useForm('mrgjopne');
 
 	return (
@@ -69,3 +70,5 @@ export const ContacForm = () => {
 		</Reveal>
 	);
 };
+
+export default ContactForm;

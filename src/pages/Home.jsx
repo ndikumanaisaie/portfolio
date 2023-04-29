@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+import React from 'react';
 
 import { Box } from '@mui/material';
 
@@ -11,7 +11,7 @@ import HorizontalRule from '../components/HorizontalRule.jsx';
 import Timeline from '../components/Timeline.jsx';
 import About from '../components/About.jsx';
 import BgAnimation from '../constants/animation.js';
-import { ContacForm } from '../components/ContacForm.jsx';
+import ContactForm from '../components/ContactForm.jsx';
 
 const Home = () => (
 	<Box className="home-container">
@@ -26,7 +26,7 @@ const Home = () => (
 		<Timeline />
 		<Achievements />
 		<HorizontalRule />
-		<ContacForm />
+		<ContactForm />
 	</Box>
 );
 
