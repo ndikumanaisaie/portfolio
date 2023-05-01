@@ -23,7 +23,7 @@ body {
   padding: 0.8rem;
 }
 
-.social-icon {
+/* .social-icon {
   color: #454f59;
   border-radius: 50px;
 }
@@ -31,7 +31,7 @@ body {
 .social-icon:hover {
   background-color: rgb(5, 100, 189);
   cursor: pointer;
-}
+} */
 
 .intro {
   width: 100%;
