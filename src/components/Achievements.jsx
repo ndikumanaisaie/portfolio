@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-import Bounce from 'react-reveal/Bounce';
+import Bounce from 'react-awesome-reveal';
 import { accomplishment } from '../constants/projectsData.js';
 
 const Achievements = () => (

@@ -2,15 +2,14 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { Box, Typography } from '@mui/material';
-import Reveal from 'react-reveal/Reveal';
+import Slide from 'react-awesome-reveal';
 import '../styles/form.css';
 
 const ContactForm = () => {
 	const [state, handleSubmit] = useForm('mrgjopne');
 
 	return (
-		<Reveal effect="fadeInUp">
-
+		<Slide bottom>
 			<Box className="form-container" mb="46px" mt="46px">
 				<Typography
 					variant="h3"
@@ -67,7 +66,7 @@ const ContactForm = () => {
 					<input type="submit" aria-label="submit" value={state.submitting ? 'SUBMITTING' : 'SUBMIT' } />
 				</form>
 			</Box>
-		</Reveal>
+		</Slide>
 	);
 };
 

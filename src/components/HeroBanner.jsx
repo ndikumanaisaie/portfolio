@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Bounce from 'react-reveal/Bounce';
+import Bounce from 'react-awesome-reveal';
 import { TypeAnimation } from 'react-type-animation';
 
 import {

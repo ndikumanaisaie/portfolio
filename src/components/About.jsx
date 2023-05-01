@@ -3,7 +3,7 @@ import React from 'react';
 import {
 	Box, Typography, Link, Stack,
 } from '@mui/material';
-import Slide from 'react-reveal/Slide';
+import Slide from 'react-awesome-reveal';
 import resume from '../images/resume.pdf';
 
 const About = () => (
