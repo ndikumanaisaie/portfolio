@@ -35,121 +35,56 @@ const Navbar = () => {
 		<Box
 			className="menu"
 		>
-			<Link to="/" style={{ textDecoration: 'none', color: '#164e87' }}>
-				<Box
-					sx={{
-						display: 'flex',
-						direction: 'row',
-						alignItems: 'center',
-						color: '#164e87',
-						fontSize: '24px',
-						textDecoration: 'none',
-					}}
-				>
-					<VscCode size="3rem" /> <span>Portfolio</span>
-				</Box>
-			</Link>
-			<div
-				className="menu-control-container"
-			>
-				<Burger open={open} setOpen={setOpen} />
-			</div>
-			{
-				activeMenu ? (
-					<Box className='menu-item-container'>
-						<Box
-							className="portfolio-container"
-							marginTop="0.8rem"
-						>
-							<a
-								className='menu-item'
-								href='#projects'
-							>
-          			Projects
-							</a>
-							<a
-								href='#technologies'
-								className='menu-item'
-							>
-          			Technologies
-							</a>
-							<a
-								href='#about'
-								className='menu-item'
-							>
-          			About
-							</a>
-						</Box>
-
-						<Stack
-							direction="row"
-							gap="40px"
-							fontSize="24px"
-							alignItems="flex-end"
-							marginTop="0.2rem"
-						>
-							<a
-								className="social-icon"
-								href='https://github.com/ndikumanaisaie'
-								target="_blank"
-								rel="noreferrer"
-							>
-								<AiFillGithub size="2rem" />
-							</a>
-							<a
-								className="social-icon"
-								href='https://www.linkedin.com/in/ndikumana-isaie-21166273'
-								target="_blank"
-								rel="noreferrer"
-							>
-								<AiFillLinkedin size="2rem" />
-							</a>
-							<a
-								className="social-icon"
-								href='https://twitter.com/Ndikuma38670724'
-								target="_blank"
-								rel="noreferrer"
-							>
-								<AiFillTwitterCircle size="2rem"/>
-							</a>
-						</Stack>
+			<div className="menu-container">
+				<Link to="/" style={{ textDecoration: 'none', color: '#164e87' }}>
+					<Box
+						sx={{
+							display: 'flex',
+							direction: 'row',
+							alignItems: 'center',
+							color: '#164e87',
+							fontSize: '24px',
+							textDecoration: 'none',
+						}}
+					>
+						<VscCode size="3rem" /> <span>Ndikumana Isaie</span>
 					</Box>
-				) : (
-					<StyledMenu open={open}>
-						<Box>
+				</Link>
+				<div
+					className="menu-control-container"
+				>
+					<Burger open={open} setOpen={setOpen} />
+				</div>
+				{
+					activeMenu ? (
+						<Box className='menu-item-container'>
 							<Box
-								className="mobile-portfolio-container"
-								marginTop="0.8rem"
+								className="portfolio-container"
 							>
 								<a
 									className='menu-item'
 									href='#projects'
-									style={{ textDecoration: 'none', color: '#ffffff' }}
 								>
-          			Projects
+									Projects
 								</a>
 								<a
 									href='#technologies'
 									className='menu-item'
-									style={{ textDecoration: 'none', color: '#ffffff' }}
 								>
-          			Technologies
+									Technologies
 								</a>
 								<a
 									href='#about'
 									className='menu-item'
-									style={{ textDecoration: 'none', color: '#ffffff' }}
 								>
-          			About
+									About
 								</a>
 							</Box>
 
 							<Stack
 								direction="row"
-								gap="40px"
-								fontSize="24px"
-								alignItems="flex-end"
-								marginTop="0.2rem"
+								gap="30px"
+								fontSize="18px"
 							>
 								<a
 									className="social-icon"
@@ -157,7 +92,7 @@ const Navbar = () => {
 									target="_blank"
 									rel="noreferrer"
 								>
-									<AiFillGithub size="2rem" />
+									<AiFillGithub size="1.8rem" />
 								</a>
 								<a
 									className="social-icon"
@@ -165,7 +100,7 @@ const Navbar = () => {
 									target="_blank"
 									rel="noreferrer"
 								>
-									<AiFillLinkedin size="2rem" />
+									<AiFillLinkedin size="1.8rem" />
 								</a>
 								<a
 									className="social-icon"
@@ -173,13 +108,77 @@ const Navbar = () => {
 									target="_blank"
 									rel="noreferrer"
 								>
-									<AiFillTwitterCircle size="2rem"/>
+									<AiFillTwitterCircle size="1.8rem"/>
 								</a>
 							</Stack>
 						</Box>
-					</StyledMenu>
-				)
-			}
+					) : (
+						<StyledMenu open={open}>
+							<Box>
+								<Box
+									className="mobile-portfolio-container"
+									marginTop="0.8rem"
+								>
+									<a
+										className='menu-item'
+										href='#projects'
+										style={{ textDecoration: 'none', color: '#ffffff' }}
+									>
+									Projects
+									</a>
+									<a
+										href='#technologies'
+										className='menu-item'
+										style={{ textDecoration: 'none', color: '#ffffff' }}
+									>
+									Technologies
+									</a>
+									<a
+										href='#about'
+										className='menu-item'
+										style={{ textDecoration: 'none', color: '#ffffff' }}
+									>
+									About
+									</a>
+								</Box>
+
+								<Stack
+									direction="row"
+									gap="40px"
+									fontSize="24px"
+									alignItems="flex-end"
+									marginTop="0.2rem"
+								>
+									<a
+										className="social-icon"
+										href='https://github.com/ndikumanaisaie'
+										target="_blank"
+										rel="noreferrer"
+									>
+										<AiFillGithub size="2rem" />
+									</a>
+									<a
+										className="social-icon"
+										href='https://www.linkedin.com/in/ndikumana-isaie-21166273'
+										target="_blank"
+										rel="noreferrer"
+									>
+										<AiFillLinkedin size="2rem" />
+									</a>
+									<a
+										className="social-icon"
+										href='https://twitter.com/Ndikuma38670724'
+										target="_blank"
+										rel="noreferrer"
+									>
+										<AiFillTwitterCircle size="2rem"/>
+									</a>
+								</Stack>
+							</Box>
+						</StyledMenu>
+					)
+				}
+			</div>
 		</Box>
 	);
 };

@@ -9,6 +9,7 @@ const {
 export const CarouselContainer = styled.ul`
   width: 100%;
   padding: 0rem;
+  color: #444f5a;
   list-style:none;
   display: flex;
   justify-content: space-between; 
@@ -46,8 +47,10 @@ export const CarouselMobileScrollNode = styled.div`
 `;
 
 export const CarouselItem = styled.div`
-  background: #1b2430;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  background: #ffffff;
   border-radius: 10px;
+  color: #444f5a;
   width: 100%;
   // border: 2px solid red;
   
@@ -58,7 +61,7 @@ export const CarouselItem = styled.div`
   @media screen and (max-width: 640px) {
     margin-left: 32px;
     min-width: 120px;
-    background: #1b2430;
+    background: #ffffff;
     // border: 2px solid blue;
     padding: 4px;
     align-content: start;
@@ -79,7 +82,7 @@ export const CarouselItemTitle = styled.h4`
   letter-spacing: 0.02em;
   display: flex;
   /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
-  background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
+  background: linear-gradient(121.57deg, #0564bd 10%, rgba(69, 79, 89, 0.66) 30.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
@@ -111,7 +114,7 @@ export const CarouselItemText = styled.p`
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.75);
+  color: #444f5a;
   padding-right: 16px;
 
   @media screen and (max-width: 768px) {
@@ -154,7 +157,7 @@ export const CarouselButton = styled.button`
 `;
 
 export const CarouselButtonDot = styled.div`
-  background-color: white;
+  background-color: #0564bd;
   border-radius: 10px;
   margin: auto;
   width: 3px;

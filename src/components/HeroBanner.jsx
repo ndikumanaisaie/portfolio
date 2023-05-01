@@ -1,17 +1,22 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Bounce from 'react-reveal/Bounce';
+import { Bounce, Fade } from 'react-awesome-reveal';
+import { TypeAnimation } from 'react-type-animation';
 
 import {
-	Box, Stack, Typography, Link,
+	Box, Stack, Typography,
 } from '@mui/material';
 import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
 
 const HeroBanner = () => (
-	<Bounce right>
+	<Bounce direction="right" fraction={0} triggerOnce={true}>
 		<Box
-			sx={{ mt: { lg: '112px', xs: '70px' } }}
-			color="#ddd"
+			display="flex"
+			flexDirection="column"
+			sx={{ mt: { lg: '0', xs: '70px' } }}
+			color="#444f5a"
+			textAlign="center"
+			alignItems="center"
 		>
 			<Typography
 				fontWeight={700}
@@ -19,7 +24,7 @@ const HeroBanner = () => (
 				mt="30px"
 				sx={{ fontSize: { lg: '44px', xs: '40px' } }}
 			>
-					Hi, <br /> I am Ndikumana Isaie
+					Hi,👋 <br /> I am Ndikumana Isaie
 			</Typography>
 			<Typography
 				fontSize={32}
@@ -27,7 +32,24 @@ const HeroBanner = () => (
 				mb={4}
 				color="#7cacdc"
 			>
-				Full Stack developer
+				<TypeAnimation
+					sequence={[
+						'Full',
+						1000,
+						'Full Stack',
+						1000,
+						'Full Stack Developer',
+						1000,
+						'Full Stack',
+						1000,
+						'Full',
+						1000,
+						'',
+						1000,
+					]}
+					style={{ fontSize: '1.2em' }}
+					repeat={Infinity}
+				/>
 			</Typography>
 
 			<Typography
@@ -55,7 +77,7 @@ const HeroBanner = () => (
 					target="_blank"
 					rel="noreferrer"
 				>
-					<AiFillGithub size="2rem" />
+					<AiFillGithub size="1.8rem" />
 				</a>
 				<a
 					className="social-icon"
@@ -63,7 +85,7 @@ const HeroBanner = () => (
 					target="_blank"
 					rel="noreferrer"
 				>
-					<AiFillLinkedin size="2rem" />
+					<AiFillLinkedin size="1.8rem" />
 				</a>
 				<a
 					className="social-icon"
@@ -71,7 +93,7 @@ const HeroBanner = () => (
 					target="_blank"
 					rel="noreferrer"
 				>
-					<AiFillTwitterCircle size="2rem"/>
+					<AiFillTwitterCircle size="1.8rem"/>
 				</a>
 			</Stack>
 		</Box>

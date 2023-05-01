@@ -3,41 +3,60 @@ import React from 'react';
 import {
 	Typography, Box, Stack,
 } from '@mui/material';
-import Reveal from 'react-reveal/Reveal';
-import {
-	DiCss3Full, DiReact, DiDatabase, DiJavascript, DiJsBadge, DiNodejs,
-	DiBootstrap, DiGit, DiGithubBadge, DiHtml5, DiTerminal, DiMongodb,
-} from 'react-icons/di';
+import { Slide } from 'react-awesome-reveal';
 
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import rails from '../images/rails.svg';
+import ruby from '../images/ruby.svg';
+import database from '../images/database.svg';
+import mongodb from '../images/mongodb.svg';
+import express from '../images/express.svg';
+import next from '../images/nextjs.svg';
+import node from '../images/node.svg';
+import javascript from '../images/javascript.svg';
+import bootstrap from '../images/bootstrap.svg';
+import react from '../images/react.svg';
+import mui from '../images/mui.svg';
+import ant from '../images/ant.svg';
+import html from '../images/html.svg';
+import css from '../images/css.svg';
+import git from '../images/git.svg';
+import github from '../images/github.svg';
+import terminal from '../images/terminal.svg';
+import media from '../images/media.svg';
+import team from '../images/team.svg';
+import internet from '../images/internet.svg';
 
 import '../styles/tech.css';
 
 const Technologies = () => (
-	<Reveal effect="fadeInUp">
-		<Box id="technologies" color="#ddd">
+	<Slide direction="up" fraction={0} triggerOnce={true}>
+		<Box id="technologies" color="#444f5a">
 			<Typography
 				variant="h3"
 				mt="50px"
 				mb="46px"
-				color="#ddd"
+				color="#444f5a"
 			>
 				Technologies
 			</Typography>
 
 			<Typography
 				mb="12px"
-				color="#ddd"
+				color="#444f5a"
 				textAlign="justify"
 				fontSize="22px"
-				sx={{ width: { lg: '60%', xs: '100%' } }}
+				sx={{ width: { lg: '80%', xs: '100%' } }}
 			>
-				I've worked with a range of Front-End And Back-End technologies in the web development world.
-				I have mastered intermediate and advanced topics in full-stack development (including Rails, React, NextJS, UI/UX, Git, and DS&A challenges)
-				while building multiple full-stack projects both independently and via pair programming.
+				I've worked with a range of Front-End And Back-End technologies in the web
+				 development world.
+				I have mastered intermediate and advanced topics in full-stack development
+				(including Rails, React, NextJS, UI/UX, Git, and DS&A challenges)
+				while building multiple full-stack projects both independently and
+				via pair programming.
 			</Typography>
 
 			<Stack
@@ -47,11 +66,12 @@ const Technologies = () => (
 			>
 				<Stack
 					direction="column"
-					backgroundColor="#051010"
+					backgroundColor="#ffffff"
 					borderRadius="10px"
+					boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
 					sx={{ width: { lg: '30%' } }}
 				>
-					<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#3d90e3" variant="h4" component="div">
+					<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#0564bd" variant="h4" component="div">
 							Front-End
 					</Typography>
 					<List>
@@ -59,7 +79,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiJavascript size={30} color="#ddd" />
+										<img className="rails-img" src={javascript} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="JavaScript"
@@ -68,7 +88,7 @@ const Technologies = () => (
 												<Typography
 													sx={{ display: 'inline' }}
 													component="span"
-													variant="body2"
+													variant="body3"
 													color="#aaaaba"
 												>
 											Experienced
@@ -79,7 +99,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiReact size={30} color="#ddd" />
+										<img className="rails-img" src={react} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="React & Redux"
@@ -99,7 +119,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiHtml5 size={30} color="#ddd" />
+										<img className="rails-img" src={html} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="HTML5"
@@ -119,7 +139,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiCss3Full size={30} color="#ddd" />
+										<img className="rails-img" src={css} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="CSS3"
@@ -141,7 +161,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiBootstrap size={30} color="#ddd" />
+										<img className="rails-img" src={bootstrap} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Bootstrap"
@@ -161,7 +181,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiHtml5 size={30} color="#ddd" />
+										<img className="rails-img" src={mui} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Material UI"
@@ -181,7 +201,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiHtml5 size={30} color="#ddd" />
+										<img className="rails-img" src={ant} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Ant Design"
@@ -205,11 +225,12 @@ const Technologies = () => (
 				</Stack>
 				<Stack
 					direction="column"
-					backgroundColor="#051010"
+					backgroundColor="#ffffff"
 					borderRadius="10px"
+					boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
 					sx={{ width: { lg: '30%' } }}
 				>
-					<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#3d90e3" textAlign="center" variant="h4" component="div">
+					<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#0564bd" textAlign="center" variant="h4" component="div">
 							Back-End
 					</Typography>
 					<List>
@@ -217,7 +238,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiDatabase size={30} color="#ddd" />
+										<img className="rails-img" src={database} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Databases"
@@ -237,7 +258,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiDatabase size={30} color="#ddd" />
+										<img className="rails-img" src={ruby} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Ruby"
@@ -257,7 +278,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiDatabase size={30} color="#ddd" />
+										<img className="rails-img" src={rails} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Rails"
@@ -277,7 +298,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiMongodb size={30} color="#ddd" />
+										<img className="rails-img" src={mongodb} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="MangoDb"
@@ -297,9 +318,9 @@ const Technologies = () => (
 								</ListItem>
 							</div>
 							<div>
-							<ListItem>
+								<ListItem>
 									<ListItemIcon>
-										<DiNodejs size={30} color="#ddd" />
+										<img className="rails-img" src={express} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Express.js"
@@ -319,7 +340,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiJsBadge size={30} color="#ddd" />
+										<img className="rails-img" src={next} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Next.js"
@@ -339,7 +360,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiNodejs size={30} color="#ddd" />
+										<img className="rails-img" src={node} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Node.js"
@@ -363,11 +384,12 @@ const Technologies = () => (
 				</Stack>
 				<Stack
 					direction="column"
-					backgroundColor="#051010"
+					backgroundColor="#ffffff"
 					borderRadius="10px"
+					boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
 					sx={{ width: { lg: '30%' } }}
 				>
-					<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#3d90e3" textAlign="center" variant="h4" component="div">
+					<Typography sx={{ mt: 4, mb: 2, textAlign: { lg: 'center' } }} color="#0564bd" textAlign="center" variant="h4" component="div">
 						Other Skills
 					</Typography>
 					<List>
@@ -375,7 +397,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiGit size={30} color="#ddd" />
+										<img className="rails-img" src={git} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Git"
@@ -395,7 +417,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiGithubBadge size={30} color="#ddd" />
+										<img className="rails-img" src={github} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="GitHub"
@@ -415,7 +437,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiTerminal size={30} color="#ddd" />
+										<img className="rails-img" src={terminal} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Terminal"
@@ -437,7 +459,7 @@ const Technologies = () => (
 							<div>
 								<ListItem>
 									<ListItemIcon>
-										<DiGit size={30} color="#ddd" />
+										<img className="rails-img" src={media} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Media Q"
@@ -457,7 +479,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiGit size={30} color="#ddd" />
+										<img className="rails-img" src={team} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Team Work"
@@ -477,7 +499,7 @@ const Technologies = () => (
 								</ListItem>
 								<ListItem>
 									<ListItemIcon>
-										<DiGit size={30} color="#ddd" />
+										<img className="rails-img" src={internet} alt="ruby on rails"/>
 									</ListItemIcon>
 									<ListItemText
 										primary="Remote pair programming"
@@ -501,7 +523,7 @@ const Technologies = () => (
 				</Stack>
 			</Stack>
 		</Box>
-	</Reveal>
+	</Slide>
 );
 
 export default Technologies;

@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
+import { Bounce } from 'react-awesome-reveal';
 import { accomplishment } from '../constants/projectsData.js';
-import Bounce from 'react-reveal/Bounce';
 
 const Achievements = () => (
-	<Bounce left>
-		<Box mt={4} color="#ddd" pb={16}>
+	<Bounce direction="right" fraction={0} triggerOnce={true}>
+		<Box mt={4} color="#444f5a" pb={16}>
 			<Typography variant="h3">
 				Personal Achievements
 			</Typography>
@@ -25,12 +25,13 @@ const Achievements = () => (
 							direction="column"
 							borderRadius={2}
 							textAlign="center"
+							boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
 							key={index}
 							p={2}
-							sx={{ backgroundColor: '#051010' }}
+							sx={{ backgroundColor: '#ffffff' }}
 
 						>
-							<Typography variant="h4">
+							<Typography variant="h4" color="#0564bd">
 								{`${acc.number}+`}
 							</Typography>
 							<Typography fontSize="14px">

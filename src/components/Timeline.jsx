@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useRef, useEffect } from 'react';
-import { Stack} from '@mui/material';
-import Bounce from 'react-reveal/Bounce';
+import { Stack } from '@mui/material';
+import { Bounce } from 'react-awesome-reveal';
 
 import {
 	CarouselButton, CarouselButtonDot, CarouselButtons,
@@ -49,7 +49,7 @@ const Timeline = () => {
 	}, []);
 
 	return (
-		<Bounce right>
+		<Bounce direction="left" fraction={0} triggerOnce={true}>
 			<Stack id="about" mt={8}>
 				<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 					<>
@@ -85,10 +85,10 @@ const Timeline = () => {
 													x2="208"
 													y2="0.500295"
 													gradientUnits="userSpaceOnUse">
-													<stop stopColor="white" />
+													<stop stopColor="#444f5a" />
 													<stop
 														offset="0.79478"
-														stopColor="white"
+														stopColor="#444f5a"
 														stopOpacity="0"
 													/>
 												</linearGradient>

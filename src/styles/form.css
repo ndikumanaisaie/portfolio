@@ -18,13 +18,24 @@ input:focus {
   outline: 0;
   box-shadow: none;
   border-color: transparent;
-  color: white;
+  color: rgb(69, 79, 89);
 }
 
+input[type=email],
 input[type=text] {
   width: 100%;
   padding: 12px;
   border-radius: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  box-shadow: none;
 }
 
 textarea {
@@ -32,35 +43,48 @@ textarea {
   resize: vertical;
   padding: 15px;
   border-radius: 15px;
-  border: 0;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
   height: 150px;
 }
 
+textarea:focus {
+  outline: 0;
+}
+
 input[type=submit] {
-  background-color: #3d90e3;
+  background-color: rgb(69, 79, 89);
   color: white;
-  width: 15%;
+  width: 30%;
   padding: 12px 20px;
-  border: 2px solid green;
-  border-radius: 4px;
+  border: 2px solid rgb(69, 79, 89);
+  border-radius: 45px;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #0564bd;
+  color: white;
+  cursor: pointer;
 }
 
 label {
-  color: #ddd;
+  color: rgb(69, 79, 89);
 }
 
 .download {
-  width: 16%;
   text-decoration: none;
-  border-radius: 12px;
-  font-size: 24px;
-  border: 2px solid brown;
-  padding: 12px;
+  color: rgb(5, 100, 189);
+  font-size: 1.2rem;
+  padding: 0.4rem 0.9rem;
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 1px solid #0564bd;
+  transition: 0.5s;
+}
+
+.download:hover {
+  background: #0564bd;
+  color: rgb(255, 255, 255);
 }
 
 .about-me {

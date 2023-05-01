@@ -5,9 +5,8 @@
   border-radius: 10px;
   padding: 14px;
   text-align: center;
-  color: #ddd;
-  background-color: #1b2536;
-  background-color: #051010;
+  color: #444f5a;
+  background-color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 400px) {
@@ -18,11 +17,12 @@
 
 .code {
   text-decoration: none;
-  color: #fff;
+  color: rgb(5, 100, 189);
   font-size: 1.2rem;
   padding: 0.4rem 0.9rem;
-  background: #7cacdc;
+  background: rgb(255, 255, 255);
   border-radius: 15px;
+  border: 1px solid #0564bd;
   transition: 0.5s;
 }
 
@@ -35,7 +35,8 @@ hr {
 }
 
 .code:hover {
-  background: #164e87;
+  background: #0564bd;
+  color: rgb(255, 255, 255);
 }
 
 .project-card img {
@@ -56,31 +57,19 @@ hr {
 }
 
 .more-action {
-  border: none;
-  width: 140px;
-  border-radius: 12px;
-  color: #164e87;
-  display: flex;
   text-decoration: none;
-  background: linear-gradient(270deg, #d8d8d8 100%, #515c67 0%);
-  opacity: 1;
-  transition: 0.4s all ease-in;
-  padding: 4px;
-  font-size: 18px;
-  font-weight: 400;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+  color: rgb(5, 100, 189);
+  font-size: 16px;
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  width: 30%;
+  border: 1px solid #0564bd;
 }
 
 .more-action:hover {
-  transform: scale(1.05, 1.05);
+  background: #0564bd;
+  color: rgb(255, 255, 255);
 }
-
-/* .projectDetails-container {
-  display: flex;
-  flex-direction: column;
-} */
 
 @media screen and (max-width: 1024px) {
   .project-card {

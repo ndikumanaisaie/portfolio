@@ -29,9 +29,10 @@
   "dependencies": {
     "@babel/eslint-parser": "^7.18.2",
     "@babel/runtime": "^7.18.6",
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
     "@formspree/react": "^2.4.1",
+    "@fortawesome/fontawesome-free": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@mui/joy": "^5.0.0-alpha.76",
     "@mui/material": "^5.8.6",
@@ -41,13 +42,14 @@
     "node-fetch": "^2.6.6",
     "process": "^0.11.10",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.3",
     "react-dom": "^18.2.0",
     "react-horizontal-scrolling-menu": "^3.1.0",
     "react-icons": "^4.2.0",
     "react-loader-spinner": "^5.1.5",
-    "react-reveal": "^1.2.2",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "react-type-animation": "^3.0.1"
   },
   "scripts": {
     "format": "prettier-eslint --eslint-config-path ./.eslintrc.js --write '**/*.js'",

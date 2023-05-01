@@ -11,21 +11,25 @@ html {
 }
 
 body {
-  background-color: #1b2430;
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
 }
 
+.home-container {
+  margin: 0 10px 0 10px;
+  border: 2px solid rgba(5, 100, 189, 0.06);
+  box-shadow: 4px 4px 10px rgba(5, 100, 189, 0.06);
+  padding: 0.8rem;
+}
+
 .social-icon {
-  transition: 0.3s ease;
-  color: #3d90e3;
+  color: #454f59;
   border-radius: 50px;
-  padding: 4px;
 }
 
 .social-icon:hover {
-  background-color: #dcdddd;
-  transform: scale(1.1);
+  background-color: rgb(5, 100, 189);
   cursor: pointer;
 }
 
@@ -59,5 +63,9 @@ body {
 @media screen and (min-width: 768px) {
   .details-img {
     width: 60%;
+  }
+
+  .home-container {
+    margin: 0 7% 0 7%;
   }
 }

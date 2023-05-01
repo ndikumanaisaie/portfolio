@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import Pagination from '@mui/material/Pagination';
-import Reveal from 'react-reveal/Reveal';
+// import { Slide } from 'react-awesome-reveal';
 import { Box, Stack, Typography } from '@mui/material';
 import { projects, timeLineData } from '../constants/projectsData.js';
 import ProjectCard from './ProjectCard.jsx';
@@ -22,54 +22,54 @@ const Projects = () => {
 	};
 
 	return (
-		<Reveal effect="fadeInUp">
-			<Box
-				id="projects"
-				mt="30px"
+		// <Slide direction="up" fraction={1} triggerOnce={true}>
+		<Box
+			id="projects"
+			mt="30px"
+		>
+			<Typography
+				variant="h3"
+				mb="46px"
+				color="#444f5a"
 			>
-				<Typography
-					variant="h3"
-					mb="46px"
-					color="#ddd"
-				>
 					Projects
-				</Typography>
+			</Typography>
 
-				<Box
-					className="projects-container"
-				>
-					{
-						currentProjects.map((project, i) => (
-							<ProjectCard
-								key={i}
-								project={project}
-								timeLineData={timeLineData}
-							/>
-						))
-					}
-				</Box>
-				<Stack
-					mt="100px"
-					alignItems="center"
-				>
-					{
-						projects.length > 4 && (
-							<Pagination
-								shape="rounded"
-								defaultPage={1}
-								count={Math.ceil(projects.length / projectPerPage)}
-								page = {currentPage}
-								onChange= {paginate}
-								size="large"
-								sx={{
-									color: '#ddd', backgroundColor: '#3d90e3', borderRadius: '10px',
-								}}
-							/>
-						)
-					}
-				</Stack>
+			<Box
+				className="projects-container"
+			>
+				{
+					currentProjects.map((project, i) => (
+						<ProjectCard
+							key={i}
+							project={project}
+							timeLineData={timeLineData}
+						/>
+					))
+				}
 			</Box>
-		</Reveal>
+			<Stack
+				mt="100px"
+				alignItems="center"
+			>
+				{
+					projects.length > 4 && (
+						<Pagination
+							shape="rounded"
+							defaultPage={1}
+							count={Math.ceil(projects.length / projectPerPage)}
+							page = {currentPage}
+							onChange= {paginate}
+							size="large"
+							sx={{
+								color: '#0564bd', backgroundColor: '#3d90e3', borderRadius: '10px',
+							}}
+						/>
+					)
+				}
+			</Stack>
+		</Box>
+		// </Slide>
 	);
 };
 
