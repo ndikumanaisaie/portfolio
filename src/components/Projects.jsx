@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import Pagination from '@mui/material/Pagination';
-import Reveal from 'react-reveal/Reveal';
+// import { Slide } from 'react-awesome-reveal';
 import { Box, Stack, Typography } from '@mui/material';
 import { projects, timeLineData } from '../constants/projectsData.js';
 import ProjectCard from './ProjectCard.jsx';
@@ -22,7 +22,7 @@ const Projects = () => {
 	};
 
 	return (
-		<Reveal effect="fadeInUp">
+		// <Slide direction="up" fraction={1} triggerOnce={true}>
 			<Box
 				id="projects"
 				mt="30px"
@@ -69,7 +69,7 @@ const Projects = () => {
 					}
 				</Stack>
 			</Box>
-		</Reveal>
+		// </Slide>
 	);
 };
 

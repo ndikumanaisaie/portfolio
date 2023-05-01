@@ -1,13 +1,13 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Reveal from 'react-reveal/Reveal';
+import { Slide } from 'react-awesome-reveal';
 import {
 	Box, Stack, Typography,
 } from '@mui/material';
 
 const ProjectCard = ({ project, timeLineData }) => (
-	<Reveal effect="fadeInUp">
+	<Slide direction="up" fraction={0} triggerOnce={true}>
 		<Box
 			className="project-card"
 		>
@@ -75,7 +75,7 @@ const ProjectCard = ({ project, timeLineData }) => (
 				</Box>
 			</Stack>
 		</Box>
-	</Reveal>
+	</Slide>
 );
 
 export default ProjectCard;

@@ -2,14 +2,14 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { Box, Typography } from '@mui/material';
-import Slide from 'react-awesome-reveal';
+import { Slide } from 'react-awesome-reveal';
 import '../styles/form.css';
 
 const ContactForm = () => {
 	const [state, handleSubmit] = useForm('mrgjopne');
 
 	return (
-		<Slide bottom>
+		<Slide direction="up" fraction={0} triggerOnce={true}>
 			<Box className="form-container" mb="46px" mt="46px">
 				<Typography
 					variant="h3"

@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Bounce from 'react-awesome-reveal';
+import { Bounce, Fade } from 'react-awesome-reveal';
 import { TypeAnimation } from 'react-type-animation';
 
 import {
@@ -9,7 +9,7 @@ import {
 import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
 
 const HeroBanner = () => (
-	<Bounce right>
+	<Bounce direction="right" fraction={0} triggerOnce={true}>
 		<Box
 			display="flex"
 			flexDirection="column"

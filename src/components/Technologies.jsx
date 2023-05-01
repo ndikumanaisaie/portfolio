@@ -3,7 +3,7 @@ import React from 'react';
 import {
 	Typography, Box, Stack,
 } from '@mui/material';
-import Reveal from 'react-reveal/Reveal';
+import { Slide } from 'react-awesome-reveal';
 
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -33,7 +33,7 @@ import internet from '../images/internet.svg';
 import '../styles/tech.css';
 
 const Technologies = () => (
-	<Reveal effect="fadeInUp">
+	<Slide direction="up" fraction={0} triggerOnce={true}>
 		<Box id="technologies" color="#444f5a">
 			<Typography
 				variant="h3"
@@ -523,7 +523,7 @@ const Technologies = () => (
 				</Stack>
 			</Stack>
 		</Box>
-	</Reveal>
+	</Slide>
 );
 
 export default Technologies;

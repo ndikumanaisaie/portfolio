@@ -3,11 +3,11 @@ import React from 'react';
 import {
 	Box, Typography, Link, Stack,
 } from '@mui/material';
-import Slide from 'react-awesome-reveal';
+import { Slide } from 'react-awesome-reveal';
 import resume from '../images/resume.pdf';
 
 const About = () => (
-	<Slide bottom>
+	<Slide direction="up" fraction={0} triggerOnce={true}>
 		<Box id="about">
 			<Typography
 				variant="h3"

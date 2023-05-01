@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-import Bounce from 'react-awesome-reveal';
+import { Bounce } from 'react-awesome-reveal';
 import { accomplishment } from '../constants/projectsData.js';
 
 const Achievements = () => (
-	<Bounce left>
+	<Bounce direction="right" fraction={0} triggerOnce={true}>
 		<Box mt={4} color="#444f5a" pb={16}>
 			<Typography variant="h3">
 				Personal Achievements
