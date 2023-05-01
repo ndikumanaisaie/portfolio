@@ -99,7 +99,7 @@ To run the project, execute the following command:
 ```
 
 ```sh
-   npm start ##  then go to localhost:8080
+ npm start ##  then go to localhost:8080
 ```
 
 Run tests
