@@ -3,10 +3,11 @@ import React, { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Box } from '@mui/material';
 
-import Navbar from './components/Navbar.jsx';
+// import Navbar from './components/Navbar.jsx';
 import Home from './pages/Home.jsx';
 import Footer from './components/Footer.jsx';
 import ProjectDetails from './pages/ProjectDetails.jsx';
+import NavMenu from './components/NavMenu.jsx';
 
 const App = () => (
 	<Box
@@ -15,7 +16,8 @@ const App = () => (
 		m="auto"
 		minHeight="100vh"
 	>
-		<Navbar />
+		<NavMenu />
+		{/* <Navbar /> */}
 		<Routes>
 			<Route path='/' element={<Home />} />
 			<Route path='/project/:id' element={<ProjectDetails />} />
