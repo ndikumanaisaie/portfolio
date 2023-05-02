@@ -19,8 +19,6 @@ body {
 
 .home-container {
   margin: 0 10px 0 10px;
-  border: 2px solid rgba(5, 100, 189, 0.06);
-  box-shadow: 4px 4px 10px rgba(5, 100, 189, 0.06);
   padding: 0.8rem;
 }
 
@@ -61,11 +59,45 @@ body {
   background-color: #ddd;
 }
 
-.menu {
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 99;
+  background: white;
   height: 5rem;
-  opacity: 1;
-  z-index: 10;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-collapse {
+  background: white;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: #444f5a;
+}
+
+.nav-link:hover {
+  color: #0564bd;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  border-top: 1px solid #444f5a;
+  gap: 2rem;
+}
+
+.social {
+  color: #444f5a;
+}
+
+.social:hover {
+  color: #0564bd;
 }
 
 @media screen and (min-width: 768px) {
@@ -74,6 +106,11 @@ body {
   }
 
   .home-container {
-    margin: 0 7% 0 7%;
+    margin: 4% 7% 0 7%;
+  }
+
+  .social-icon {
+    margin-top: 0;
+    border-top: 0;
   }
 }

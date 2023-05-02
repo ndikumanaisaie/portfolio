@@ -14,7 +14,7 @@ import BgAnimation from '../constants/animation.js';
 import ContactForm from '../components/ContactForm.jsx';
 
 const Home = () => (
-	<Box className="home-container">
+	<Box className="home-container" id="home">
 		<HeroBanner />
 		<BgAnimation />
 		<HorizontalRule />
