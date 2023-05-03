@@ -44,10 +44,10 @@
 
 .code {
   text-decoration: none;
-  color: rgb(5, 100, 189);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
   padding: 0.4rem 0.9rem;
-  background: rgb(255, 255, 255);
+  background: rgb(5, 100, 189);
   border-radius: 15px;
   border: 1px solid #0564bd;
   transition: 0.5s;
