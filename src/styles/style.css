@@ -109,12 +109,12 @@ body {
 
 .social {
   color: #444f5a;
+  transition: transform 1s;
 }
 
 .social:hover {
   color: #0564bd;
   transform: scale(1.5);
-  transition: all 0.5s;
 }
 
 .curtain img {

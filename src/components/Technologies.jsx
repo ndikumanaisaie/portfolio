@@ -65,6 +65,7 @@ const Technologies = () => (
 				}}
 			>
 				<Stack
+					className='technologies'
 					direction="column"
 					backgroundColor="#ffffff"
 					borderRadius="10px"
@@ -224,6 +225,7 @@ const Technologies = () => (
 					</List>
 				</Stack>
 				<Stack
+					className='technologies'
 					direction="column"
 					backgroundColor="#ffffff"
 					borderRadius="10px"
@@ -383,6 +385,7 @@ const Technologies = () => (
 					</List>
 				</Stack>
 				<Stack
+					className='technologies'
 					direction="column"
 					backgroundColor="#ffffff"
 					borderRadius="10px"

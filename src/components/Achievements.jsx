@@ -22,6 +22,7 @@ const Achievements = () => (
 				{
 					accomplishment.map((acc, index) => (
 						<Stack
+							className='technologies'
 							direction="column"
 							borderRadius={2}
 							textAlign="center"

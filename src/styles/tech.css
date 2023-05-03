@@ -7,6 +7,21 @@
 .rails-img {
   width: 54px;
   height: 38px;
+  transition: transform 1s;
+}
+
+.rails-img:hover {
+  width: 54px;
+  height: 38px;
+  transform: scale(1.5);
+}
+
+.technologies {
+  transition: transform 1s;
+}
+
+.technologies:hover {
+  transform: scale(1.2);
 }
 
 @media screen and (min-width: 768px) {
