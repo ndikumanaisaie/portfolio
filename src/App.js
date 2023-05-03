@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Box } from '@mui/material';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 // import Navbar from './components/Navbar.jsx';
 import Home from './pages/Home.jsx';
@@ -23,6 +25,7 @@ const App = () => (
 			<Route path='/project/:id' element={<ProjectDetails />} />
 		</Routes>
 		<Footer />
+		<ToastContainer />
 	</Box>
 );
 

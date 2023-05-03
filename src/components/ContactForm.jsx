@@ -3,10 +3,15 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { Box, Typography } from '@mui/material';
 import { Slide } from 'react-awesome-reveal';
+import { toast } from 'react-toastify';
 import '../styles/form.css';
 
 const ContactForm = () => {
 	const [state, handleSubmit] = useForm('mrgjopne');
+
+	if(state.succeeded) {
+		toast.success('Form Submitted successfully!');
+	}
 
 	return (
 		<Slide direction="up" fraction={0} triggerOnce={true}>
