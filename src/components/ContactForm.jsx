@@ -2,7 +2,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { Box, Typography } from '@mui/material';
-import { Slide } from 'react-awesome-reveal';
 import { toast } from 'react-toastify';
 import '../styles/form.css';
 
@@ -14,7 +13,9 @@ const ContactForm = () => {
 	}
 
 	return (
-		<Slide direction="up" fraction={0} triggerOnce={true}>
+		<div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
 			<Box className="form-container" mb="46px" mt="46px">
 				<Typography
 					variant="h3"
@@ -71,7 +72,7 @@ const ContactForm = () => {
 					<input type="submit" aria-label="submit" value={state.submitting ? 'SUBMITTING' : 'SUBMIT' } />
 				</form>
 			</Box>
-		</Slide>
+		</div>
 	);
 };
 

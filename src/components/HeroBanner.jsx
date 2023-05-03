@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { Bounce } from 'react-awesome-reveal';
 import { TypeAnimation } from 'react-type-animation';
 import { Github, Twitter, Linkedin } from 'react-bootstrap-icons';
 import {
@@ -8,14 +7,19 @@ import {
 } from '@mui/material';
 import ndikumana from '../images/ndikumana.jpg';
 
-const HeroBanner = () => (
-	<Bounce direction="right" fraction={0} triggerOnce={true}>
-		<Box
-			className="hero"
-			display="flex"
-			flexDirection="row"
-			sx={{ mt: { lg: '0', xs: '70px' } }}
-			justifyContent="space-between"
+const HeroBanner = () => {
+	return (
+	<Box
+		className="hero"
+		display="flex"
+		flexDirection="row"
+		sx={{ mt: { lg: '0', xs: '70px' } }}
+		justifyContent="space-between"
+	>
+		<div
+			data-aos="fade-right"
+			data-aos-duration="1500"
+			data-aos-delay="2000"
 		>
 			<Box
 				display="flex"
@@ -66,9 +70,9 @@ const HeroBanner = () => (
 					mb={4}
 				>
 					I can help you build a product, feature, or website.
-            Look through some of my work and experience!
-            If you like what you see and have a project you need to be coded,
-            do not hesitate to contact me.
+					Look through some of my work and experience!
+					If you like what you see and have a project you need to be coded,
+					do not hesitate to contact me.
 				</Typography>
 
 				<Stack
@@ -104,20 +108,21 @@ const HeroBanner = () => (
 					</a>
 				</Stack>
 			</Box>
-			<div class="curtain"
-				data-aos="fade-left"
-				data-aos-duration="1500"
-				data-aos-delay="2000"
-			>
-				<img
-					src={ndikumana}
-					width="400"
-					height="400"
-					alt="Ndikumana Isaie"
-				/>
-			</div>
-		</Box>
-	</Bounce>
-);
+		</div>
+		<div class="curtain"
+			data-aos="fade-left"
+			data-aos-duration="1500"
+			data-aos-delay="1000"
+		>
+			<img
+				src={ndikumana}
+				width="400"
+				height="400"
+				alt="Ndikumana Isaie"
+			/>
+		</div>
+	</Box>
+	);
+} 
 
 export default HeroBanner;
