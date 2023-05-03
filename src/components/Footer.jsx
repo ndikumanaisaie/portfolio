@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-import { Github, Twitter, Linkedin} from "react-bootstrap-icons";
+import { Github, Twitter, Linkedin } from 'react-bootstrap-icons';
 
 const Footer = () => (
 	<Box

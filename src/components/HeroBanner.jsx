@@ -1,13 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { Bounce} from 'react-awesome-reveal';
+import { Bounce } from 'react-awesome-reveal';
 import { TypeAnimation } from 'react-type-animation';
-import { Github, Twitter, Linkedin} from "react-bootstrap-icons";
-import ndikumana from '../images/ndikumana.jpg';
-
+import { Github, Twitter, Linkedin } from 'react-bootstrap-icons';
 import {
 	Box, Stack, Typography,
 } from '@mui/material';
+import ndikumana from '../images/ndikumana.jpg';
 
 const HeroBanner = () => (
 	<Bounce direction="right" fraction={0} triggerOnce={true}>
@@ -116,7 +115,7 @@ const HeroBanner = () => (
 					height="400"
 					alt="Ndikumana Isaie"
 				/>
-      </div>
+			</div>
 		</Box>
 	</Bounce>
 );

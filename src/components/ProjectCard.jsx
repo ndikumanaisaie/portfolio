@@ -7,56 +7,56 @@ import {
 } from '@mui/material';
 
 const ProjectCard = ({ project, timeLineData }) => (
-		<Box
-			className="project-card"
+	<Box
+		className="project-card"
+	>
+		<img
+			src={project.image}
+			alt={project.title}
+		/>
+		<Typography
+			color="#0564bd"
+			fontSize={30}
 		>
-			<img
-				src={project.image}
-				alt={project.title}
-			/>
-			<Typography
-				color="#0564bd"
-				fontSize={30}
-			>
-				{project.title}
-			</Typography>
-			<hr />
-			<Typography style={{ textAlign: 'justify', color: '#444f5a' }}>
-				{
-					project.description.length > 100
-						? `${project.description.substring(0, 100)} ...`
-						: project.description
-				}
-			</Typography>
+			{project.title}
+		</Typography>
+		<hr />
+		<Typography style={{ textAlign: 'justify', color: '#444f5a' }}>
+			{
+				project.description.length > 100
+					? `${project.description.substring(0, 100)} ...`
+					: project.description
+			}
+		</Typography>
 
-			<Typography
-				color="#0564bd"
-				fontSize="18px"
-			>Stack</Typography>
+		<Typography
+			color="#0564bd"
+			fontSize="18px"
+		>Stack</Typography>
 
-			<Stack
-				direction="row"
-				justifyContent="space-around"
-				flexWrap="wrap"
-				gap="4px"
-			>
-				{
-					project.tags.map((tag, i) => (
-						<Box className="language" key={i}>
-							<Typography>{tag}</Typography>
-						</Box>
-					))
-				}
-			</Stack>
+		<Stack
+			direction="row"
+			justifyContent="space-around"
+			flexWrap="wrap"
+			gap="4px"
+		>
+			{
+				project.tags.map((tag, i) => (
+					<Box className="language" key={i}>
+						<Typography>{tag}</Typography>
+					</Box>
+				))
+			}
+		</Stack>
 
-			<Link
-					className='more-action'
-					to={`/project/${project.id}`}
-				>
+		<Link
+			className='more-action'
+			to={`/project/${project.id}`}
+		>
 						See Project
-			</Link>
+		</Link>
 
-			{/* <Stack
+		{/* <Stack
 				direction="row"
 				justifyContent="space-between"
 			>
@@ -68,7 +68,7 @@ const ProjectCard = ({ project, timeLineData }) => (
 					<a className="code" href={project.visit} target="_blank" rel="noreferrer">Demo</a>
 				</Box>
 			</Stack> */}
-		</Box>
+	</Box>
 );
 
 export default ProjectCard;

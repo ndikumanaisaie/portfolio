@@ -9,7 +9,7 @@ import '../styles/form.css';
 const ContactForm = () => {
 	const [state, handleSubmit] = useForm('mrgjopne');
 
-	if(state.succeeded) {
+	if (state.succeeded) {
 		toast.success('Form Submitted successfully!');
 	}
 
