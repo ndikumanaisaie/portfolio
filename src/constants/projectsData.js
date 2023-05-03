@@ -77,7 +77,7 @@ export const projects = [
 	},
 	{
 		title: 'Awesome Books',
-		description: "This is a book collection website that let users pick a book from a collection of books.",
+		description: 'This is a book collection website that let users pick a book from a collection of books.',
 		image: awesome,
 		tags: ['JavaScript', 'HTML5', 'CSS3', 'webpack'],
 		source: 'https://github.com/ndikumanaisaie/awesome-books.git',
