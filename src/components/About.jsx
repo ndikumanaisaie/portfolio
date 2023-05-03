@@ -30,11 +30,12 @@ const About = () => (
 					sx={{ width: { lg: '80%', xs: '100%' } }}
 				>
 						I am a solution-oriented Front-End Developer,
-						lifelong learner, and adventure with a background in electronics.
-						I enjoy development because of the satisfaction I get by overcoming challenges.
-						I am motivated by the opportunity that web development
-						provides to positively impact individual life,
-						family, and the world as a whole. I am open to new opportunities.
+            lifelong learner, and adventure with a background in electronics.
+            I enjoy development because of the satisfaction I get by overcoming challenges.
+            I am motivated by the opportunity that web development
+            provides a positive impact on individual life,
+            family, and the world as a whole. I am open to new opportunities.
+
 				</Typography>
 				<Link
 					className="download"

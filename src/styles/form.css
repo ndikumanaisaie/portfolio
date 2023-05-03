@@ -30,12 +30,8 @@ input[type=text] {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
 }
 
-input:invalid {
-  box-shadow: 0 0 5px 1px red;
-}
-
 input:focus:invalid {
-  box-shadow: none;
+  box-shadow: 0 0 5px 1px red;
 }
 
 textarea {

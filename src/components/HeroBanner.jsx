@@ -31,7 +31,7 @@ const HeroBanner = () => (
 					mt="30px"
 					sx={{ fontSize: { lg: '44px', xs: '40px' } }}
 				>
-						Hi,👋 <br /> I am Ndikumana Isaie
+						Hello, 👋 <br /> I am Ndikumana Isaie
 				</Typography>
 				<Typography
 					fontSize={32}
@@ -65,10 +65,10 @@ const HeroBanner = () => (
 					lineHeight="35px"
 					mb={4}
 				>
-						I can help you build a product , feature or website.
-						Look through some of my work and experience!
-						If you like what you see and have a project you need coded,
-						do not hesitate to contact me.
+					I can help you build a product, feature, or website.
+            Look through some of my work and experience!
+            If you like what you see and have a project you need to be coded,
+            do not hesitate to contact me.
 				</Typography>
 
 				<Stack
