@@ -46,7 +46,7 @@ export const projects = [
 		tags: ['React', 'JavaScript', 'Material UI', 'ExerciseDB Api'],
 		source: 'https://github.com/ndikumanaisaie/feetness_app.git',
 		visit: 'https://feetness.netlify.app/',
-		id: 3,
+		id: 4,
 	},
 	{
 		title: 'Ndikumana Isaie Portfolio',
@@ -55,7 +55,7 @@ export const projects = [
 		tags: ['React', 'JavaScript', 'Material UI', 'Styled Component'],
 		source: 'https://github.com/ndikumanaisaie/portfolio.git',
 		visit: 'https://ndikumanaisaie.netlify.app/',
-		id: 4,
+		id: 5,
 	},
 	{
 		title: 'To-do List',
@@ -64,7 +64,7 @@ export const projects = [
 		tags: ['JavaScript', 'HTML5', 'CSS3', 'webpack'],
 		source: 'https://github.com/ndikumanaisaie/To-do-list.git',
 		visit: 'https://ndikumanaisaie.github.io/To-do-list/dist/',
-		id: 5,
+		id: 6,
 	},
 	{
 		title: 'Filmpire',
@@ -73,7 +73,7 @@ export const projects = [
 		tags: ['React', 'omdbApi', 'HTML5', 'CSS3'],
 		source: 'https://github.com/ndikumanaisaie/react_course.git',
 		visit: 'https://ndikumanaisaie.github.io/react_course/dist/',
-		id: 6,
+		id: 7,
 	},
 	{
 		title: 'Awesome Books',
@@ -82,7 +82,7 @@ export const projects = [
 		tags: ['JavaScript', 'HTML5', 'CSS3', 'webpack'],
 		source: 'https://github.com/ndikumanaisaie/awesome-books.git',
 		visit: 'https://ndikumanaisaie.github.io/awesome-books/',
-		id: 7,
+		id: 8,
 	},
 	{
 		title: 'Portfolio',
@@ -91,7 +91,7 @@ export const projects = [
 		tags: ['JavaScript', 'HTML5', 'CSS3'],
 		source: 'https://github.com/ndikumanaisaie/portfolio_ndikumana.git',
 		visit: 'https://ndikumanaisaie.github.io/portfolio_ndikumana/',
-		id: 8,
+		id: 9,
 	},
 	{
 		title: 'Leaderboard',
@@ -100,7 +100,7 @@ export const projects = [
 		tags: ['JavaScript', 'HTML5', 'CSS3', 'Leaderboard API'],
 		source: 'https://github.com/ndikumanaisaie/Leaderboard.git',
 		visit: 'https://ndikumanaisaie.github.io/Leaderboard/dist/',
-		id: 9,
+		id: 10,
 	},
 ];
 
