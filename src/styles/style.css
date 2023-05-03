@@ -32,6 +32,7 @@ body {
   top: 10%;
   right: 10%;
   width: 50%;
+  z-index: -1;
 }
 
 .details-img {
