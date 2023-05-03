@@ -32,7 +32,7 @@ export const projects = [
 	},
 	{
 		title: 'TV Show',
-		description: 'A web application which is based on external API TVmaze. This amazing website let users enjoy TV series and movies. Users can also like and comment on each movie or show and the number of comments and likes will be displayed and increased accordingly',
+		description: 'A web application which is based on external API TVmaze. This website let users enjoy TV series and movies. Users can also like and comment on each movie or show and the number of comments and likes will be displayed and increased accordingly',
 		image: tvmaze,
 		tags: ['JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'TVMaze Api'],
 		source: 'https://github.com/ndikumanaisaie/JS_capstone_TVshows.git',

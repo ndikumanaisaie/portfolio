@@ -112,11 +112,9 @@ const HeroBanner = () => (
 			>
 				<img
 					src={ndikumana}
-					crossorigin=""
-					data-sampler="simplePlaneTexture"
 					width="400"
 					height="400"
-					alt="Ahmed Zougari"
+					alt="Ndikumana Isaie"
 				/>
       </div>
 		</Box>
