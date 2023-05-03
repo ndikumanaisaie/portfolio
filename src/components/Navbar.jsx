@@ -87,12 +87,11 @@ const Navbar = () => {
 								fontSize="18px"
 							>
 								<a
-									className="social-icon"
 									href='https://github.com/ndikumanaisaie'
 									target="_blank"
 									rel="noreferrer"
 								>
-									<AiFillGithub size="1.8rem" />
+									<AiFillGithub className="social-icon" size="1.8rem" />
 								</a>
 								<a
 									className="social-icon"

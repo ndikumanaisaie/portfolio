@@ -9,13 +9,16 @@ const ProjectDetails = () => {
 	const { id } = useParams();
 	const data = projects.find((project) => project.id === parseInt(id, 10));
 	return (
-		<Stack
+		<Box
+			display="flex"
+			flexDirection="row"
+			mt="6%"
+			p="12px"
 			gap="12px"
-			m="3%"
-			color="#ddd"
-			textAlign="center"
+			color="#444f5a"
+			justifyContent="space-between"
 			sx={{
-				flexDirection: { md: 'row', xs: 'column' },
+				flexDirection: { md: 'row', xs: 'column' }, mt: { md: '7%', xs: '18%' },
 			}}
 		>
 			<img
@@ -23,7 +26,7 @@ const ProjectDetails = () => {
 				src={data.image}
 				alt={data.title}
 			/>
-			<Stack direction="column">
+			<Stack direction="column" gap="12px" alignItems="start">
 				<Typography
 					mb="12px"
 					fontSize={30}
@@ -57,31 +60,29 @@ const ProjectDetails = () => {
 					direction="row"
 					justifyContent="space-around"
 					flexWrap="wrap"
+					gap="4px"
 				>
 					{
 						data.tags.map((tag, i) => (
-							<Box pb={3} pt={2} color="#aaa0e3" key={i}>
+							<Box className="language" key={i}>
 								<Typography>{tag}</Typography>
 							</Box>
 						))
 					}
 				</Stack>
 
-				<Stack
+				<Box
+					display="flex"
 					direction="row"
 					justifyContent="space-between"
+					gap="50%"
+					mt="1.2rem"
 				>
-					<Box>
-						<a className="code" href={data.source}>source</a>
-					</Box>
-
-					<Box>
-						<a className="code" href={data.visit}>Demo</a>
-					</Box>
-				</Stack>
-
+					<a className="code" href={data.source} target="_blank" rel="noreferrer">source</a>
+					<a className="code" href={data.visit} target="_blank" rel="noreferrer">Demo</a>
+				</Box>
 			</Stack>
-		</Stack>
+		</Box>
 	);
 };
 

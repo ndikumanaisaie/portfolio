@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
+import { Github, Twitter, Linkedin } from 'react-bootstrap-icons';
 
 const Footer = () => (
 	<Box
@@ -49,7 +49,7 @@ const Footer = () => (
 					target="_blank"
 					rel="noreferrer"
 				>
-					<AiFillGithub size="2rem" />
+					<Github className="social" size={24} />
 				</a>
 				<a
 					className="social-icon"
@@ -57,7 +57,7 @@ const Footer = () => (
 					target="_blank"
 					rel="noreferrer"
 				>
-					<AiFillLinkedin size="2rem" />
+					<Linkedin className="social" size={24} />
 				</a>
 				<a
 					className="social-icon"
@@ -65,7 +65,7 @@ const Footer = () => (
 					target="_blank"
 					rel="noreferrer"
 				>
-					<AiFillTwitterCircle size="2rem"/>
+					<Twitter className="social" size={24}/>
 				</a>
 			</Stack>
 		</Stack>

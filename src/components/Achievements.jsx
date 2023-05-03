@@ -1,11 +1,13 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-import { Bounce } from 'react-awesome-reveal';
 import { accomplishment } from '../constants/projectsData.js';
 
 const Achievements = () => (
-	<Bounce direction="right" fraction={0} triggerOnce={true}>
+	<div data-aos="flip-left"
+		data-aos-easing="ease-out-cubic"
+		data-aos-duration="2000"
+	>
 		<Box mt={4} color="#444f5a" pb={16}>
 			<Typography variant="h3">
 				Personal Achievements
@@ -22,6 +24,7 @@ const Achievements = () => (
 				{
 					accomplishment.map((acc, index) => (
 						<Stack
+							className='technologies'
 							direction="column"
 							borderRadius={2}
 							textAlign="center"
@@ -42,8 +45,7 @@ const Achievements = () => (
 				}
 			</Box>
 		</Box>
-	</Bounce>
-
+	</div>
 );
 
 export default Achievements;

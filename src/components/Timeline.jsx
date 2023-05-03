@@ -49,7 +49,10 @@ const Timeline = () => {
 	}, []);
 
 	return (
-		<Bounce direction="left" fraction={0} triggerOnce={true}>
+		<div data-aos="flip-right"
+			data-aos-easing="ease-out-cubic"
+			data-aos-duration="2000"
+		>
 			<Stack id="about" mt={8}>
 				<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 					<>
@@ -114,7 +117,8 @@ const Timeline = () => {
 					))}
 				</CarouselButtons>
 			</Stack>
-		</Bounce>
+		</div>
+
 	);
 };
 

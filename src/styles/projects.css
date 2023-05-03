@@ -1,12 +1,21 @@
 /* stylelint-disable color-hex-case */
 .project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   border: 1px solid rgb(214, 214, 214);
   border-radius: 10px;
-  padding: 14px;
-  text-align: center;
+  padding: 10px;
   color: #444f5a;
   background-color: rgb(255, 255, 255);
+  transition: transform 1s;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+  border: 1px solid #0564bd;
 }
 
 @media screen and (max-width: 400px) {
@@ -15,12 +24,30 @@
   }
 }
 
+.language {
+  border: 1px solid #0564bd;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+  padding: 4px;
+  background: #fff;
+  color: #444f5a;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  transition: transform 1s;
+}
+
+.language:hover {
+  transform: scale(1.1);
+}
+
 .code {
   text-decoration: none;
-  color: rgb(5, 100, 189);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
   padding: 0.4rem 0.9rem;
-  background: rgb(255, 255, 255);
+  background: rgb(5, 100, 189);
   border-radius: 15px;
   border: 1px solid #0564bd;
   transition: 0.5s;
@@ -29,9 +56,8 @@
 hr {
   width: 50px;
   height: 3px;
-  margin: 20px auto;
   border: 0;
-  background: #ddd;
+  background: #444f5a;
 }
 
 .code:hover {
@@ -57,18 +83,26 @@ hr {
 }
 
 .more-action {
-  text-decoration: none;
-  color: rgb(5, 100, 189);
-  font-size: 16px;
-  background: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  margin-top: 2rem;
+  letter-spacing: 0.03em;
   border-radius: 15px;
-  width: 30%;
+  padding: 8px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background: rgb(5, 100, 189);
   border: 1px solid #0564bd;
+  transition: transform 1s, background-color 1s, color 1s;
 }
 
 .more-action:hover {
-  background: #0564bd;
-  color: rgb(255, 255, 255);
+  transform: scale(1.3);
+  background: #fff;
+  color: rgb(69, 79, 89);
+  box-shadow: 0 8px 16px 0 #0564bd;
 }
 
 @media screen and (max-width: 1024px) {

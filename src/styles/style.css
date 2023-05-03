@@ -14,28 +14,17 @@ body {
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 .home-container {
   margin: 0 10px 0 10px;
-  border: 2px solid rgba(5, 100, 189, 0.06);
-  box-shadow: 4px 4px 10px rgba(5, 100, 189, 0.06);
   padding: 0.8rem;
-}
-
-.social-icon {
-  color: #454f59;
-  border-radius: 50px;
-}
-
-.social-icon:hover {
-  background-color: rgb(5, 100, 189);
-  cursor: pointer;
 }
 
 .intro {
   width: 100%;
-  text-align: justify;
+  text-align: left;
 }
 
 .BgAnimation__svg {
@@ -60,12 +49,98 @@ body {
   background-color: #ddd;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 99;
+  background: white;
+  height: 5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-collapse {
+  background: white;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: #444f5a;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #0564bd;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0564bd;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0564bd;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.social {
+  color: #444f5a;
+  transition: transform 1s;
+}
+
+.social:hover {
+  color: #0564bd;
+  transform: scale(1.5);
+}
+
+.curtain img {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .details-img {
     width: 60%;
   }
 
   .home-container {
-    margin: 0 7% 0 7%;
+    margin: 6% 7% 0 7%;
   }
+
+  .social-icon {
+    margin-top: 0;
+    border-top: 0;
+  }
+
+  .curtain img {
+    display: flex;
+    border-radius: 20% 61% 21% 92% / 30% 51% 11% 32%;
+  }
+
+  /* .hero {
+    border: 2px solid blue;
+  } */
 }
