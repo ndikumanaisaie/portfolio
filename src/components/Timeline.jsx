@@ -117,8 +117,8 @@ const Timeline = () => {
 					))}
 				</CarouselButtons>
 			</Stack>
-			</div>
-		
+		</div>
+
 	);
 };
 

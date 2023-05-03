@@ -7,8 +7,7 @@ import {
 } from '@mui/material';
 import ndikumana from '../images/ndikumana.jpg';
 
-const HeroBanner = () => {
-	return (
+const HeroBanner = () => (
 	<Box
 		className="hero"
 		display="flex"
@@ -122,7 +121,6 @@ const HeroBanner = () => {
 			/>
 		</div>
 	</Box>
-	);
-} 
+);
 
 export default HeroBanner;

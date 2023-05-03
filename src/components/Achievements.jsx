@@ -5,8 +5,8 @@ import { accomplishment } from '../constants/projectsData.js';
 
 const Achievements = () => (
 	<div data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"
+		data-aos-easing="ease-out-cubic"
+		data-aos-duration="2000"
 	>
 		<Box mt={4} color="#444f5a" pb={16}>
 			<Typography variant="h3">
@@ -45,7 +45,7 @@ const Achievements = () => (
 				}
 			</Box>
 		</Box>
-</div>
+	</div>
 );
 
 export default Achievements;

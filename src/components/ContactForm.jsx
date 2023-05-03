@@ -14,8 +14,8 @@ const ContactForm = () => {
 
 	return (
 		<div data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+			data-aos-offset="300"
+			data-aos-easing="ease-in-sine">
 			<Box className="form-container" mb="46px" mt="46px">
 				<Typography
 					variant="h3"

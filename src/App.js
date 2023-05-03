@@ -13,11 +13,9 @@ import ProjectDetails from './pages/ProjectDetails.jsx';
 import NavMenu from './components/NavMenu.jsx';
 
 const App = () => {
-
 	useEffect(() => {
 		AOS.init();
-	}, [])
-	
+	}, []);
 
 	return (
 		<Box
@@ -36,6 +34,5 @@ const App = () => {
 			<ToastContainer />
 		</Box>
 	);
-	
-} 
+};
 export default App;
